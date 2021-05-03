@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY dct "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY sm "http://fpolizel.esy.es/SpecificationMetadata/" >
+    <!ENTITY fibo-fnd-pty-rl "http://fpolizel.esy.es/FIBO/FND/Parties/Roles/" >
+    <!ENTITY fibo-fnd-law-cor "http://fpolizel.esy.es/FIBO/FND/Law/LegalCore/" >
+    <!ENTITY fibo-fnd-pty-pty "http://fpolizel.esy.es/FIBO/FND/Parties/Parties/" >
+    <!ENTITY fibo-fnd-plc-loc "http://fpolizel.esy.es/FIBO/FND/Places/Locations/" >
+    <!ENTITY fibo-fnd-law-jur "http://fpolizel.esy.es/FIBO/FND/Law/Jurisdiction/" >
+    <!ENTITY fibo-fnd-plc-cty "http://fpolizel.esy.es/FIBO/FND/Places/Countries/" >
+    <!ENTITY fibo-fnd-plc-adr "http://fpolizel.esy.es/FIBO/FND/Places/Addresses/" >
+    <!ENTITY fibo-fnd-law-lcap "http://fpolizel.esy.es/FIBO/FND/Law/LegalCapacity/" >
+    <!ENTITY fibo-fnd-rel-rel "http://fpolizel.esy.es/FIBO/FND/Relations/Relations/" >
+    <!ENTITY fibo-fnd-agr-ctr "http://fpolizel.esy.es/FIBO/FND/Agreements/Contracts/" >
+    <!ENTITY fibo-fnd-agr-agr "http://fpolizel.esy.es/FIBO/FND/Agreements/Agreements/" >
+    <!ENTITY fibo-fnd-aap-agt "http://fpolizel.esy.es/FIBO/FND/AgentsAndPeople/Agents/" >
+    <!ENTITY fibo-fnd-aap-ppl "http://fpolizel.esy.es/FIBO/FND/AgentsAndPeople/People/" >
+    <!ENTITY fibo-fnd-gao-gl "http://fpolizel.esy.es/FIBO/FND/GoalsAndObjectives/Goals/" >
+    <!ENTITY fibo-be-le-lp "http://fpolizel.esy.es/FIBO/BE/LegalEntities/LegalPersons/" >
+    <!ENTITY fibo-fnd-acc-cur "http://fpolizel.esy.es/FIBO/FND/Accounting/CurrencyAmount/" >
+    <!ENTITY fibo-fnd-acc-aeq "http://fpolizel.esy.es/FIBO/FND/Accounting/AccountingEquity/" >
+    <!ENTITY fibo-fnd-org-org "http://fpolizel.esy.es/FIBO/FND/Organizations/Organizations/" >
+    <!ENTITY fibo-fnd-utl-bt "http://fpolizel.esy.es/FIBO/FND/Utilities/BusinessFacingTypes/" >
+    <!ENTITY fibo-fnd-oac-own "http://fpolizel.esy.es/FIBO/FND/OwnershipAndControl/Ownership/" >
+    <!ENTITY fibo-fnd-utl-av "http://fpolizel.esy.es/FIBO/FND/Utilities/AnnotationVocabulary/" >
+    <!ENTITY fibo-fnd-org-fm "http://fpolizel.esy.es/FIBO/FND/Organizations/FormalOrganizations/" >
+    <!ENTITY ob-org "http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/" >
+]>
+
+
+<rdf:RDF xmlns="http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/"
+     xml:base="http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/"
+     xmlns:fibo-fnd-aap-agt="http://fpolizel.esy.es/FIBO/FND/AgentsAndPeople/Agents/"
+     xmlns:fibo-fnd-pty-rl="http://fpolizel.esy.es/FIBO/FND/Parties/Roles/"
+     xmlns:fibo-fnd-law-lcap="http://fpolizel.esy.es/FIBO/FND/Law/LegalCapacity/"
+     xmlns:fibo-fnd-utl-bt="http://fpolizel.esy.es/FIBO/FND/Utilities/BusinessFacingTypes/"
+     xmlns:fibo-fnd-agr-ctr="http://fpolizel.esy.es/FIBO/FND/Agreements/Contracts/"
+     xmlns:fibo-fnd-oac-own="http://fpolizel.esy.es/FIBO/FND/OwnershipAndControl/Ownership/"
+     xmlns:fibo-fnd-law-cor="http://fpolizel.esy.es/FIBO/FND/Law/LegalCore/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:fibo-fnd-org-fm="http://fpolizel.esy.es/FIBO/FND/Organizations/FormalOrganizations/"
+     xmlns:ob-org="http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/"
+     xmlns:fibo-fnd-plc-cty="http://fpolizel.esy.es/FIBO/FND/Places/Countries/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:fibo-fnd-aap-ppl="http://fpolizel.esy.es/FIBO/FND/AgentsAndPeople/People/"
+     xmlns:sm="http://fpolizel.esy.es/SpecificationMetadata/"
+     xmlns:fibo-fnd-plc-adr="http://fpolizel.esy.es/FIBO/FND/Places/Addresses/"
+     xmlns:fibo-fnd-agr-agr="http://fpolizel.esy.es/FIBO/FND/Agreements/Agreements/"
+     xmlns:fibo-fnd-utl-av="http://fpolizel.esy.es/FIBO/FND/Utilities/AnnotationVocabulary/"
+     xmlns:fibo-fnd-pty-pty="http://fpolizel.esy.es/FIBO/FND/Parties/Parties/"
+     xmlns:fibo-fnd-law-jur="http://fpolizel.esy.es/FIBO/FND/Law/Jurisdiction/"
+     xmlns:fibo-fnd-rel-rel="http://fpolizel.esy.es/FIBO/FND/Relations/Relations/"
+     xmlns:fibo-fnd-org-org="http://fpolizel.esy.es/FIBO/FND/Organizations/Organizations/"
+     xmlns:fibo-fnd-plc-loc="http://fpolizel.esy.es/FIBO/FND/Places/Locations/"
+     xmlns:fibo-fnd-acc-aeq="http://fpolizel.esy.es/FIBO/FND/Accounting/AccountingEquity/"
+     xmlns:fibo-fnd-acc-cur="http://fpolizel.esy.es/FIBO/FND/Accounting/CurrencyAmount/"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:fibo-fnd-gao-gl="http://fpolizel.esy.es/FIBO/FND/GoalsAndObjectives/Goals/"
+     xmlns:fibo-be-le-lp="http://fpolizel.esy.es/FIBO/BE/LegalEntities/LegalPersons/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/">
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/BE/LegalEntities/LegalPersons/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Accounting/AccountingEquity/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Accounting/CurrencyAmount/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/AgentsAndPeople/Agents/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/AgentsAndPeople/People/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Agreements/Agreements/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Agreements/Contracts/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/GoalsAndObjectives/Goals/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Law/Jurisdiction/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Law/LegalCapacity/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Law/LegalCore/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Organizations/FormalOrganizations/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Organizations/Organizations/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/OwnershipAndControl/Ownership/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Parties/Parties/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Parties/Roles/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Places/Addresses/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Places/Countries/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Places/Locations/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Relations/Relations/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Utilities/AnnotationVocabulary/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/FIBO/FND/Utilities/BusinessFacingTypes/"/>
+        <owl:imports rdf:resource="http://fpolizel.esy.es/SpecificationMetadata/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/CommercialBank -->
+
+    <owl:Class rdf:about="&ob-org;CommercialBank">
+        <rdfs:label xml:lang="en">commercial bank</rdfs:label>
+        <rdfs:label xml:lang="pt">banco comercial</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/CooperativeBank -->
+
+    <owl:Class rdf:about="&ob-org;CooperativeBank">
+        <rdfs:label xml:lang="en">co-operative bank</rdfs:label>
+        <rdfs:label xml:lang="pt">banco cooperativo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+	
+	
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/CreditCooperative -->
+
+    <owl:Class rdf:about="&ob-org;CreditCooperative">
+        <rdfs:label xml:lang="en">credit co-operative</rdfs:label>
+        <rdfs:label xml:lang="pt">cooperativa de crédito</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/CreditSociety -->
+
+    <owl:Class rdf:about="&ob-org;CreditSociety">
+        <rdfs:label xml:lang="en">credit society</rdfs:label>
+        <rdfs:label xml:lang="pt">sociedade de crédito</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/DevelopmentAgency -->
+
+    <owl:Class rdf:about="&ob-org;DevelopmentAgency">
+        <rdfs:label xml:lang="en">development agency</rdfs:label>
+        <rdfs:label xml:lang="pt">agência de fomento</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/DevelopmentBank -->
+
+    <owl:Class rdf:about="&ob-org;DevelopmentBank">
+        <rdfs:label xml:lang="en">development bank</rdfs:label>
+        <rdfs:label xml:lang="pt">banco de desenvolvimento</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/FinancialInstitution -->
+
+    <owl:Class rdf:about="&ob-org;FinancialInstitution">
+        <rdfs:label xml:lang="en">financial institution</rdfs:label>
+        <rdfs:label xml:lang="pt">instituição financeira</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&fibo-be-le-lp;JudicialPerson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/InstitutionAuthorizedToOperateByBacen -->
+
+    <owl:Class rdf:about="&ob-org;InstitutionAuthorizedToOperateByBacen">
+        <rdfs:label xml:lang="en">institution authorized to operate by Bacen</rdfs:label>
+        <rdfs:label xml:lang="pt">instituição autorizada a funcionar pelo Bacen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/InvestmentBank -->
+
+    <owl:Class rdf:about="&ob-org;InvestmentBank">
+        <rdfs:label xml:lang="en">investment bank</rdfs:label>
+        <rdfs:label xml:lang="pt">banco de investimento</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/LeasingSociety -->
+
+    <owl:Class rdf:about="&ob-org;LeasingSociety">
+        <rdfs:label xml:lang="en">leasing society</rdfs:label>
+        <rdfs:label xml:lang="pt">sociedade de arrendamento mercantil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/MonetaryAuthority -->
+
+    <owl:Class rdf:about="&ob-org;MonetaryAuthority">
+        <rdfs:label xml:lang="en">monetary authority</rdfs:label>
+        <rdfs:label xml:lang="pt">autoridade monetária</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&fibo-be-le-lp;JudicialPerson"/>
+        <fibo-fnd-utl-av:definitionOrigin rdf:datatype="&xsd;string">Definition of concept &quot;MonetaryAuthority&quot; of FIBO Interest Rate Publisher Ontology</fibo-fnd-utl-av:definitionOrigin>
+        <sm:relatedSpecification rdf:datatype="&xsd;string">This concept is the same encountered in the FIBO Interest Rate Publishers Ontology (URI: &quot;http://www.omg.org/spec/EDMC-FIBO/IND/InterestRates/InterestRatePublishers/&quot;).</sm:relatedSpecification>
+        <skos:definition rdf:datatype="&xsd;string">a formal organization that controls the monetary policy, regulation and supply of money in some country or group of countries</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/MortgageCompany -->
+
+    <owl:Class rdf:about="&ob-org;MortgageCompany">
+        <rdfs:label xml:lang="en">mortgage company</rdfs:label>
+        <rdfs:label xml:lang="pt">companhia hipotecária</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/MultipleBank -->
+
+    <owl:Class rdf:about="&ob-org;MultipleBank">
+        <rdfs:label xml:lang="en">multiple bank</rdfs:label>
+        <rdfs:label xml:lang="pt">banco múltiplo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/SecuritiesBrokerage -->
+
+    <owl:Class rdf:about="&ob-org;SecuritiesBrokerage">
+        <rdfs:label xml:lang="en">securities brokerage</rdfs:label>
+        <rdfs:label xml:lang="pt">corretora de títulos e valores mobiliários</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fpolizel.esy.es/OntoBacen/Foundations/FinancialInstitutions/SecuritiesDistributor -->
+
+    <owl:Class rdf:about="&ob-org;SecuritiesDistributor">
+        <rdfs:label xml:lang="en">securities distributor</rdfs:label>
+        <rdfs:label xml:lang="pt">distribuidora de títulos e valores mobiliários</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-org;FinancialInstitution"/>
+    </owl:Class>
+    
+
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
