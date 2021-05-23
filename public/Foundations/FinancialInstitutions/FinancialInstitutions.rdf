@@ -70,6 +70,8 @@
         <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
         <rdfs:label>credit company</rdfs:label>
         <rdfs:label xml:lang="pt">sociedade de crédito</rdfs:label>
+        <skos:definition xml:lang="pt">Instituição financeira privada, constituída sob a forma de sociedade anônima, que têm como objetivo básico a realização de financiamento para a aquisição de bens, serviços e capital de giro.</skos:definition>
+        <skos:definition>Private financial institution, constituted in the form of a corporation, whose basic objective is the realization of financing for the acquisition of goods, services and working capital.</skos:definition>
     </owl:Class>
     
 
@@ -124,6 +126,8 @@
         <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/FinancialInstitutions/AuxiliaryFinancialInstitution"/>
         <rdfs:label xml:lang="pt">agência de fomento</rdfs:label>
         <rdfs:label>fostering agency</rdfs:label>
+        <skos:definition>Financial institution whose purpose is the granting of capital for projects (e.g. research or non-profit social projects).</skos:definition>
+        <skos:definition xml:lang="pt">Instituição financeira que tem como objeto social a concessão de financiamento de capital fixo e de giro associado a projetos.</skos:definition>
     </owl:Class>
     
 
@@ -134,6 +138,7 @@
         <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LEIEntities/ContractuallyCapableEntity"/>
         <rdfs:label xml:lang="pt">instituição autorizada a funcionar pelo Banco Central do Brasil</rdfs:label>
         <rdfs:label>institution authorized to operate by Brazil Central Bank</rdfs:label>
+        <skos:definition xml:lang="pt">Instituição financeira pertencente ao SFN cujas atividades econômicas estão de acordo com as normas regulatórias do BACEN (Note que qualquer instituição financeira pertencente à uma das outras possíveis classes, pode vir a pertencer a esta classe).</skos:definition>
         <skos:definition>an entity legally and financially responsible for the performance of financial transactions, and authorized to operate over Brazil Central Bank&apos;s jurisdiction (Brazilian Financial System). This excludes natural persons, but includes private and governmental financial institutions and organizations.</skos:definition>
     </owl:Class>
     
@@ -145,6 +150,8 @@
         <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/FinancialInstitutions/AuxiliaryFinancialInstitution"/>
         <rdfs:label>leasing union</rdfs:label>
         <rdfs:label xml:lang="pt">sociedade de arrendamento mercantil</rdfs:label>
+        <skos:definition>Financial institution constituted in the form of a corporation, which operates in the market for the leasing of movable goods of national or foreign production, and real estate acquired by the lessor for purposes of the lessee&apos;s own use.</skos:definition>
+        <skos:definition xml:lang="pt">Instituição financeira constituída sob a forma de sociedade anônima, que atua no mercado de arrendamento mercantil de bens móveis, de produção nacional ou estrangeira, e bens imóveis adquiridos pela entidade arrendadora para fins de uso próprio do arrendatário.</skos:definition>
     </owl:Class>
     
 
@@ -209,6 +216,8 @@
         <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/FinancialInstitutions/AuxiliaryFinancialInstitution"/>
         <rdfs:label xml:lang="pt">corretora de títulos e valores mobiliários</rdfs:label>
         <rdfs:label>securities brokerage</rdfs:label>
+        <skos:definition>Financial institution constituted in the form of a limited liability company whose main objectives are to operate on stock exchanges, subscribe issues of securities on the market, buy and sell securities on their own and on-behalf of third parties.</skos:definition>
+        <skos:definition xml:lang="pt">Instituição financeira constituída sob a forma de sociedade anônima ou por quotas de responsabilidade limitada cujos principais objetivos são operar em bolsas de valores, subscrever emissões de títulos e valores mobiliários no mercado, comprar e vender títulos e valores mobiliários por conta própria e de terceiros.</skos:definition>
     </owl:Class>
     
 
@@ -245,7 +254,8 @@
 
     <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/InvestmentBank">
         <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
-        <skos:definition xml:lang="pt">banco de investimentos</skos:definition>
+        <rdfs:label xml:lang="pt">banco de investimentos</rdfs:label>
+        <skos:definition xml:lang="pt">Instituição financeira privada especializada em operações de participação societária de caráter temporário, de financiamento da atividade produtiva para suprimento de capital fixo e de giro e de administração de recursos de terceiros.</skos:definition>
     </rdf:Description>
     
 
@@ -255,6 +265,7 @@
     <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/MortgageCompany">
         <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
         <rdfs:label xml:lang="pt">companhia hipotecária</rdfs:label>
+        <skos:definition xml:lang="pt">Instituição financeira constituída sob a forma de sociedade anônima, que têm por objeto social conceder financiamentos destinados à produção, reforma ou comercialização de imóveis residenciais ou comerciais aos quais não se aplicam as normas do Sistema Financeiro da Habitação (SFH).</skos:definition>
     </rdf:Description>
     
 
@@ -279,8 +290,12 @@
     <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/CentralBank">
         <rdfs:label xml:lang="pt">banco central</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/CommercialBank">
+        <skos:definition xml:lang="pt">Instituição financeira privada ou pública que têm como objetivo principal proporcionar suprimento de recursos necessários para financiar, a curto e a médio prazos, o comércio, a indústria, as empresas prestadoras de serviços, as pessoas físicas e terceiros em geral.</skos:definition>
+    </rdf:Description>
     <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/CreditUnion">
         <rdfs:label xml:lang="pt">cooperativa de crédito</rdfs:label>
+        <skos:definition xml:lang="pt">Instituição financeira constituída na forma de sociedade anônima, sem fins lucrativos, cujos interesses comuns dos cooperados é reconhecido pelo Poder Público.</skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/DepositoryInstitution">
         <AnnotationVocabulary:synonym>monetary financial institution</AnnotationVocabulary:synonym>
