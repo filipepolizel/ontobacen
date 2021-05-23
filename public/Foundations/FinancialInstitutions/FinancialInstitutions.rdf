@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://ontobacen.web.app/Foundations/FinancialInstitutions/"
+     xml:base="https://ontobacen.web.app/Foundations/FinancialInstitutions/"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:Analytics="https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/"
+     xmlns:ob-fnd-fin="https://ontobacen.web.app/Foundations/FinancialInstitutions/"
+     xmlns:AnnotationVocabulary="https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/"
+     xmlns:SpecificationMetadata="http://www.omg.org/techprocess/ab/SpecificationMetadata/">
+    <owl:Ontology rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/">
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/master/2021Q1/FBC/FunctionalEntities/FinancialServicesEntities/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/AuxiliaryFinancialInstitution -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/AuxiliaryFinancialInstitution">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/FunctionalEntities/FunctionalBusinessEntity"/>
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/FinancialInstitution"/>
+        <rdfs:label>auxiliary financial institution</rdfs:label>
+        <rdfs:label xml:lang="pt">instituição financeira auxiliar</rdfs:label>
+        <skos:definition>Auxiliar operating entity which is part of the Brazilian Financial System (SFN), such as administrative entities of the securities market, such as stocks, commodities, exchange changed or over-the-counter derivatives. Among other entities mentioned before, insurance companies, funding institutions, and pension/retirement plan management entities are also considered auxiliary financial institutions.</skos:definition>
+        <skos:definition xml:lang="pt">Entidade operadora auxiliar que compõe o Sistema Financeiro Nacional (SFN), tais como entidades administradores de mercados organizados de valores mobiliários, como os de Bolsa, de Mercadorias e Futuros e de Balcão Organizado. Além das entidades relacionadas acima, também integram o SFN as companhias seguradoras, as sociedades de capitalização, as entidades abertas de previdência complementar e os fundos de pensão.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/ConsortiumAdministrator -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/ConsortiumAdministrator">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
+        <rdfs:label xml:lang="pt">administradora de consórcios</rdfs:label>
+        <rdfs:label>consortium administrator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/CooperativeBank -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/CooperativeBank">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/Bank"/>
+        <rdfs:label xml:lang="pt">banco cooperativo</rdfs:label>
+        <rdfs:label>cooperative bank</rdfs:label>
+        <skos:definition>A private financial institution, which has a commercial bank credit portfolio and whose controlling shareholders are credit unions, including their associated customers. This is the definition as provided by the Brazil Central Bank, and which might have different meaning in other jurisdictions.</skos:definition>
+        <skos:definition xml:lang="pt">Um banco cooperativo é uma instituição financeira privada, que possui cartela comercial e cujos acionistas controladores são cooperativas de crédito. Esta definição provêm do Banco Central do Brasil, e pode ter divergências quando comparada a mesma definição quando contextualizada em outras jurisdições.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/CreditCompany -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/CreditCompany">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
+        <rdfs:label>credit company</rdfs:label>
+        <rdfs:label xml:lang="pt">sociedade de crédito</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/DevelopmentBank -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/DevelopmentBank">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
+        <rdfs:label xml:lang="pt">banco de desenvolvimento</rdfs:label>
+        <rdfs:label>development bank</rdfs:label>
+        <rdfs:seeAlso>https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/DevelopmentBank</rdfs:seeAlso>
+        <skos:definition xml:lang="pt">Bancos de desenvolvimento são instituições financeiras públicas, que visam promover o desenvolvimento econômico e social em sua área de atuação. Para isso, fornecem recursos financeiros para o financiamento, a médio e longo prazos, de programas e projetos capazes de gerar desenvolvimento.</skos:definition>
+        <skos:definition>Development banks are governmental financial institutions that aim to promote economic and social development in their area of ​​activity. To this end, they provide financial resources to finance, in the medium and long term, programs and projects capable of generating development.</skos:definition>
+        <AnnotationVocabulary:explanatoryNote>FIBO&apos;s &quot;development bank&quot; is redefined in OntoBacen given that such institutions aren&apos;t considered &quot;depository institution&quot; in Brazilian Financial System. Therefore, this is a subclass of &quot;non-depository institution&quot;, even though the semantics of both classes is almost equivalent.</AnnotationVocabulary:explanatoryNote>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/DirectCreditCompany -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/DirectCreditCompany">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
+        <rdfs:label>direct credit company</rdfs:label>
+        <rdfs:label xml:lang="pt">sociedade de crédito direto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/ForeignExchangeBank -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/ForeignExchangeBank">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/MoneyServicesBusiness"/>
+        <rdfs:label xml:lang="pt">banco de câmbio</rdfs:label>
+        <rdfs:label>foreign exchange bank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/ForeignExchangeBrokerage -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/ForeignExchangeBrokerage">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/MoneyServicesBusiness"/>
+        <rdfs:label>foreign exchange brokerage</rdfs:label>
+        <rdfs:label xml:lang="pt">sociedade corretora de câmbio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/FosteringAgency -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/FosteringAgency">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/FinancialInstitutions/AuxiliaryFinancialInstitution"/>
+        <rdfs:label xml:lang="pt">agência de fomento</rdfs:label>
+        <rdfs:label>fostering agency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/InstitutionAuthorizedToOperateByBrazilCentralBank -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/InstitutionAuthorizedToOperateByBrazilCentralBank">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LEIEntities/ContractuallyCapableEntity"/>
+        <rdfs:label xml:lang="pt">instituição autorizada a funcionar pelo Banco Central do Brasil</rdfs:label>
+        <rdfs:label>institution authorized to operate by Brazil Central Bank</rdfs:label>
+        <skos:definition>an entity legally and financially responsible for the performance of financial transactions, and authorized to operate over Brazil Central Bank&apos;s jurisdiction (Brazilian Financial System). This excludes natural persons, but includes private and governmental financial institutions and organizations.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/LeasingUnion -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/LeasingUnion">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/FinancialInstitutions/AuxiliaryFinancialInstitution"/>
+        <rdfs:label>leasing union</rdfs:label>
+        <rdfs:label xml:lang="pt">sociedade de arrendamento mercantil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/MicroentrepreneurCreditCompany -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/MicroentrepreneurCreditCompany">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
+        <rdfs:label>microentrepreneur credit company</rdfs:label>
+        <rdfs:label xml:lang="pt">sociedade de crédito ao microempreendedor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/MultipleBank -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/MultipleBank">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/Bank"/>
+        <rdfs:label xml:lang="pt">banco múltiplo</rdfs:label>
+        <rdfs:label>multiple bank</rdfs:label>
+        <skos:definition>Multiple banks are private or public financial institutions that carry out the assets, liabilities and auxiliary operations of the various specialized financial institutions, through the following portfolios: commercial, investment and/or development, real estate credit, leasing and credit, financing and investment.</skos:definition>
+        <skos:definition xml:lang="pt">Os bancos múltiplos são instituições financeiras privadas ou públicas que realizam as operações ativas, passivas e acessórias das diversas instituições financeiras, por intermédio das seguintes carteiras: comercial, de investimento e/ou de desenvolvimento, de crédito imobiliário, de arrendamento mercantil e de crédito, financiamento e investimento.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/PaymentInstitution -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/PaymentInstitution">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
+        <rdfs:label xml:lang="pt">instituição de pagamento</rdfs:label>
+        <rdfs:label>payment institution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/PeerToPeerLendingCompany -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/PeerToPeerLendingCompany">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
+        <rdfs:label>peer-to-peer lending company</rdfs:label>
+        <rdfs:label xml:lang="pt">sociedade de empréstimo entre pessoas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/SavingsBank -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/SavingsBank">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/Bank"/>
+        <rdfs:label xml:lang="pt">caixa econômica</rdfs:label>
+        <rdfs:label>savings bank</rdfs:label>
+        <skos:definition>Credit institution similar to banks, associated or belonging to a charitable mutual association, with a social role. It has no shareholders and no profit. Savings banks have their own legal status and exercise restricted banking activity, as some banking operations are prohibited by law. Thus, savings banks raise funds through savings from individuals in the form of deposits, which are applied in the granting of mortgage loans, and on pledges; and through the acquisition of securities.</skos:definition>
+        <skos:definition xml:lang="pt">Instituição de crédito semelhante aos bancos, associada ou pertencente a uma associação mutualista beneficente, de caráter social. Não possui acionistas e nem fins lucrativos. As caixas econômicas possuem um estatuto legal próprio e exercem uma atividade bancária restrita, pois algumas operações bancárias estão-lhes vedadas por lei. Assim, as caixas econômicas captam recursos através essencialmente de poupanças de particulares sob a forma de depósitos, que são aplicados na concessão de empréstimos hipotecários, e sobre penhores; e através da aquisição de títulos.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/SecuritiesBrokerage -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/SecuritiesBrokerage">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/FinancialInstitutions/AuxiliaryFinancialInstitution"/>
+        <rdfs:label xml:lang="pt">corretora de títulos e valores mobiliários</rdfs:label>
+        <rdfs:label>securities brokerage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/SecuritiesDistributor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/SecuritiesDistributor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/FinancialInstitutions/AuxiliaryFinancialInstitution"/>
+        <rdfs:label xml:lang="pt">distribuidora de títulos e valores mobiliários</rdfs:label>
+        <rdfs:label>securities distributor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/FinancialInstitutions/SecuritiesExchange -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/FinancialInstitutions/SecuritiesExchange">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/FinancialInstitutions/AuxiliaryFinancialInstitution"/>
+        <rdfs:label xml:lang="pt">bolsa de valores</rdfs:label>
+        <rdfs:label>securities exchange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/FinancialInstitution -->
+
+    <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/FinancialInstitution">
+        <rdfs:label xml:lang="pt">instituição financeira</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/InvestmentBank -->
+
+    <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/InvestmentBank">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
+        <skos:definition xml:lang="pt">banco de investimentos</skos:definition>
+    </rdf:Description>
+    
+
+
+    <!-- https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/MortgageCompany -->
+
+    <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/MortgageCompany">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution"/>
+        <rdfs:label xml:lang="pt">companhia hipotecária</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution -->
+
+    <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/NonDepositoryInstitution">
+        <AnnotationVocabulary:synonym xml:lang="pt">instituição financeira não-monetária</AnnotationVocabulary:synonym>
+        <AnnotationVocabulary:synonym>non-monetary financial institution</AnnotationVocabulary:synonym>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/CentralBank">
+        <rdfs:label xml:lang="pt">banco central</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/CreditUnion">
+        <rdfs:label xml:lang="pt">cooperativa de crédito</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/DepositoryInstitution">
+        <AnnotationVocabulary:synonym>monetary financial institution</AnnotationVocabulary:synonym>
+        <AnnotationVocabulary:synonym xml:lang="pt">instituição financeira monetária</AnnotationVocabulary:synonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/MonetaryAuthority">
+        <rdfs:label xml:lang="pt">autoridade monetária</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      { "source": "/Foundations/FinancialInstitutions/", "destination": "/Foundations/FinancialInstitutions/FinancialInstitutions.rdf", "type": 301 }
+    ]
+  }
+}
