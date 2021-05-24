@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/"
+     xml:base="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:Swaps="https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:Analytics="https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/"
+     xmlns:AnnotationVocabulary="https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/"
+     xmlns:SpecificationMetadata="http://www.omg.org/techprocess/ab/SpecificationMetadata/">
+    <owl:Ontology rdf:about="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/">
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/"/>
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/"/>
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/"/>
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/"/>
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/"/>
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/"/>
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegulatoryAgencies/"/>
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/ContextualizedCapitalDefinition -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/ContextualizedCapitalDefinition">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/ContextualizedMonetaryAmount"/>
+        <rdfs:label>contextualized capital definition</rdfs:label>
+        <rdfs:label xml:lang="pt">definição de capital contextualizada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/ContextualizedMonetaryAmount -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/ContextualizedMonetaryAmount">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasContext"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>contextualized monetary amount</rdfs:label>
+        <rdfs:label xml:lang="pt">montante monetário contextualizado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/ContextualizedWeightedAssets -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/ContextualizedWeightedAssets">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/ContextualizedMonetaryAmount"/>
+        <rdfs:label xml:lang="pt">ativos ponderados contextualizados</rdfs:label>
+        <rdfs:label>contextualized weighted assets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/FinancialRegulationComplianceAssessmentActivity -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/FinancialRegulationComplianceAssessmentActivity">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity"/>
+        <rdfs:label xml:lang="pt">atividade para verificação de conformidade com regulamentação financeira</rdfs:label>
+        <rdfs:label>financial regulation compliance assessment activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/FinancialRegulationComplianceAssessmentEvent -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/FinancialRegulationComplianceAssessmentEvent">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegulatoryAgencies/isRegulatedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/MonetaryAuthority"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegulatoryAgencies/regulates"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/FinancialServiceProvider"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="pt">evento de verificação de conformidade com regulamentação financeira</rdfs:label>
+        <rdfs:label>financial regulation compliance assessment event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/FinancialRegulationComplianceClassificationScheme -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/FinancialRegulationComplianceClassificationScheme">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/ClassificationScheme"/>
+        <rdfs:label xml:lang="pt">esquema de classificação de conformidade com regulamentação financeira</rdfs:label>
+        <rdfs:label>financial regulation compliance classification scheme</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
