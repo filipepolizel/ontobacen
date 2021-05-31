@@ -1,0 +1,455 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://ontobacen.web.app/Foundations/Factors/"
+     xml:base="https://ontobacen.web.app/Foundations/Factors/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:ob-fac="https://ontobacen.web.app/Foundations/Factors/"
+     xmlns:ob-rel="https://ontobacen.web.app/Foundations/Relations/"
+     xmlns:Analytics="https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/"
+     xmlns:AnnotationVocabulary="https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/"
+     xmlns:SpecificationMetadata="http://www.omg.org/techprocess/ab/SpecificationMetadata/">
+    <owl:Ontology rdf:about="https://ontobacen.web.app/Foundations/Factors/">
+        <owl:imports rdf:resource="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/"/>
+        <owl:imports rdf:resource="https://ontobacen.web.app/Foundations/Relations/"/>
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/"/>
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/"/>
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/"/>
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#qualifiedCardinality -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#qualifiedCardinality"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/isDerivedFromInverseOf -->
+
+    <owl:ObjectProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/isDerivedFromInverseOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasDecimalValue -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasDecimalValue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/BasicIndexFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/BasicIndexFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/OperationalRiskConstantFactor"/>
+        <rdfs:label>basic index factor</rdfs:label>
+        <rdfs:label xml:lang="pt">fator do indicador basico</rdfs:label>
+        <skos:definition>a constant operational risk factor defined by business rules from the basic indicator approach</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/CapitalRequirementFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/CapitalRequirementFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/TimeDependantFactor"/>
+        <rdfs:label>capital requirement factor</rdfs:label>
+        <rdfs:label xml:lang="pt">fator de requerimento de capital</rdfs:label>
+        <skos:definition>a time dependent factor defined by business rules of the risk management domain, associated with the minimum operational capital limits which financial institutions are subject to</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/ConstantFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/ConstantFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/NumericalFactor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasNumericValue"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>constant factor</rdfs:label>
+        <rdfs:label xml:lang="pt">fator constante</rdfs:label>
+        <skos:definition>a numerical factor which value is invariant to any variable or unit</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/ContextDependantFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/ContextDependantFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/PropertyDependantFactor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasContext"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>context dependent factor</rdfs:label>
+        <rdfs:label xml:lang="pt">fator dependente de contexto</rdfs:label>
+        <skos:definition>a property dependent factor whose numerical representation is valid only in the context in which it&apos;s inserted (defined through FIBO&apos;s &quot;hasContext&quot; relationship)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/CoreCapitalRequirementFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/CoreCapitalRequirementFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/CapitalRequirementFactor"/>
+        <rdfs:label>core capital requirement factor</rdfs:label>
+        <rdfs:label xml:lang="pt">fator de requerimento de capital principal</rdfs:label>
+        <skos:definition>a capital requirement factor associated with the &quot;core capital&quot; definition</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/CreditRiskModelTransitionFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/CreditRiskModelTransitionFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/ModelTransitionFactor"/>
+        <rdfs:label>credit risk model transition factor</rdfs:label>
+        <rdfs:label xml:lang="pt">fator de transição de modelo de risco de crédito</rdfs:label>
+        <skos:definition>a model transaction factor specific to the credit risk management domain</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/DerivedFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/DerivedFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/NumericalFactor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/isDerivedFrom"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontobacen.web.app/Foundations/Factors/NumericalFactor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>derived factor</rdfs:label>
+        <rdfs:label xml:lang="pt">fator derivado</rdfs:label>
+        <skos:definition>a factor which numerical representation is derived from another numerical factor</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/FinancialRegulationComplianceContextDependentFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/FinancialRegulationComplianceContextDependentFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/ContextDependantFactor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasContext"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/FinancialRegulationComplianceAssessmentEvent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="pt">fator dependente de contexto de conformidade com regulamentação financeira</rdfs:label>
+        <rdfs:label>financial regulation compliance context dependent factor</rdfs:label>
+        <skos:definition>a property dependent factor whose numerical representation is valid only in the context of the &quot;financial regulation compliance assessment event&quot; in which it&apos;s inserted (defined through FIBO&apos;s &quot;hasContext&quot; relationship)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/InverseOfFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/InverseOfFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/DerivedFactor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontobacen.web.app/Foundations/Relations/isDerivedFromInverseOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontobacen.web.app/Foundations/Factors/NumericalFactor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>inverse of factor</rdfs:label>
+        <rdfs:label xml:lang="pt">inverso de fator</rdfs:label>
+        <skos:definition>a factor which numerical representation is derived from the inverse of another numerical factor</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/MarketRiskModelTransitionFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/MarketRiskModelTransitionFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/ModelTransitionFactor"/>
+        <rdfs:label xml:lang="pt">fator de transição de modelo de risco de mercado</rdfs:label>
+        <rdfs:label>market risk model transition factor</rdfs:label>
+        <skos:definition>a model transaction factor specific to the market risk management domain</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/ModelTransitionFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/ModelTransitionFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/TimeDependantFactor"/>
+        <rdfs:label xml:lang="pt">fator de transição de modelo</rdfs:label>
+        <rdfs:label>model transition factor</rdfs:label>
+        <skos:definition>a time dependent factor defined by business rules from risk management domain, associated with the usage of internal risk models (as replacements of standardized models)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/NumericalFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/NumericalFactor">
+        <rdfs:subClassOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/Classifier"/>
+        <rdfs:label xml:lang="pt">fator numérico</rdfs:label>
+        <rdfs:label>numerical factor</rdfs:label>
+        <skos:definition>numerical factor applied in a product to define a derived concept</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/OperationalRiskConstantFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/OperationalRiskConstantFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/ConstantFactor"/>
+        <rdfs:label xml:lang="pt">fator constante de risco operacional</rdfs:label>
+        <rdfs:label>operational risk constant factor</rdfs:label>
+        <skos:definition>a constant factor defined by business rules from the operational risk management domain</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/OperationalRiskModelTransitionFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/OperationalRiskModelTransitionFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/ModelTransitionFactor"/>
+        <rdfs:label xml:lang="pt">fator de transição de modelo de risco operacional</rdfs:label>
+        <rdfs:label>operational risk model transition factor</rdfs:label>
+        <skos:definition>a model transaction factor specific to the operational risk management domain</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/PropertyDependantFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/PropertyDependantFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/NumericalFactor"/>
+        <rdfs:label xml:lang="pt">fator dependente de propriedade</rdfs:label>
+        <rdfs:label>property dependent factor</rdfs:label>
+        <skos:definition>a factor which numerical representation depends of an external property, and whose conceptualization is feasible solely when its base property is defined</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/ReferenceCapitalRequirementFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/ReferenceCapitalRequirementFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/CapitalRequirementFactor"/>
+        <rdfs:label xml:lang="pt">fator de requerimento de patrimônio de referência</rdfs:label>
+        <rdfs:label>reference equity requirement factor</rdfs:label>
+        <skos:definition>a capital requirement factor associated with the &quot;reference equity&quot; definition</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/SimplifiedApproachFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/SimplifiedApproachFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/OperationalRiskConstantFactor"/>
+        <rdfs:label xml:lang="pt">fator da abordagem simplificada</rdfs:label>
+        <rdfs:label>simplified approach factor</rdfs:label>
+        <skos:definition>a constant operational risk factor defined by business rules from the simplified approach</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/StandardizedApproachFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/StandardizedApproachFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/OperationalRiskConstantFactor"/>
+        <rdfs:label xml:lang="pt">fator da abordagem padronizada</rdfs:label>
+        <rdfs:label>standardized approach factor</rdfs:label>
+        <skos:definition>a constant operational risk factor defined by business rules from the standardized approach</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/Tier1CapitalRequirementFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/Tier1CapitalRequirementFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/CapitalRequirementFactor"/>
+        <rdfs:label xml:lang="pt">fator de requerimento de capital nível 1</rdfs:label>
+        <rdfs:label>tier 1 capital requirement factor</rdfs:label>
+        <skos:definition>a capital requirement factor associated with the &quot;tier 1 capital&quot; definition</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Factors/TimeDependantFactor -->
+
+    <owl:Class rdf:about="https://ontobacen.web.app/Foundations/Factors/TimeDependantFactor">
+        <rdfs:subClassOf rdf:resource="https://ontobacen.web.app/Foundations/Factors/PropertyDependantFactor"/>
+        <rdfs:label xml:lang="pt">fator dependente de tempo</rdfs:label>
+        <rdfs:label>time dependent factor</rdfs:label>
+        <skos:definition>a property dependent factor whose numerical representation is valid only within a time window or interval</skos:definition>
+    </owl:Class>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl#inv">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#orig">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#amt_orig">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#amt_inv">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://ontobacen.web.app/Foundations/Factors/InverseOfFactor"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#inv"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://ontobacen.web.app/Foundations/Relations/isDerivedFromInverseOf"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#inv"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#orig"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="https://ontobacen.web.app/Foundations/Relations/hasDecimalValue"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#orig"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#amt_orig"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#divide"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="urn:swrl#amt_inv"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:first>
+                                                                <rdf:rest rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="urn:swrl#amt_orig"/>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://ontobacen.web.app/Foundations/Relations/hasDecimalValue"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#inv"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#amt_inv"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
