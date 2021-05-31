@@ -8,7 +8,9 @@
     ],
     "redirects": [
       { "source": "/Foundations/FinancialInstitutions/", "destination": "/Foundations/FinancialInstitutions/FinancialInstitutions.rdf", "type": 301 },
-      { "source": "/Foundations/ContextualizedMonetaryAmount/", "destination": "/Foundations/ContextualizedMonetaryAmount/ContextualizedMonetaryAmount.rdf", "type": 301 }
+      { "source": "/Foundations/ContextualizedMonetaryAmount/", "destination": "/Foundations/ContextualizedMonetaryAmount/ContextualizedMonetaryAmount.rdf", "type": 301 },
+      { "source": "/Foundations/Relations/", "destination": "/Foundations/Relations/Relations.rdf", "type": 301 },
+      { "source": "/Foundations/Factors/", "destination": "/Foundations/Factors/Factors.rdf", "type": 301 }
     ]
   }
 }

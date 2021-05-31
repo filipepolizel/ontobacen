@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://ontobacen.web.app/Foundations/Relations/"
+     xml:base="https://ontobacen.web.app/Foundations/Relations/"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:ob-rel="https://ontobacen.web.app/Foundations/Relations/"
+     xmlns:SpecificationMetadata="http://www.omg.org/techprocess/ab/SpecificationMetadata/">
+    <owl:Ontology rdf:about="https://ontobacen.web.app/Foundations/Relations/">
+        <owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/isDerivedFromInverseOf -->
+
+    <owl:ObjectProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/isDerivedFromInverseOf">
+        <rdfs:subPropertyOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/isDerivedFrom"/>
+        <rdfs:label>is derived from inverse of</rdfs:label>
+        <rdfs:label xml:lang="pt">é derivado do inverso de</rdfs:label>
+        <skos:definition>indicates something which is determined or obtained by the mathematical inverse representation of the subject</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/isDerivedFromMaximumOf -->
+
+    <owl:ObjectProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/isDerivedFromMaximumOf">
+        <rdfs:subPropertyOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/isDerivedFrom"/>
+        <rdfs:label>is derived from maximum of</rdfs:label>
+        <rdfs:label xml:lang="pt">é derivado do máximo de</rdfs:label>
+        <skos:definition>indicates something which is determined or obtained by the mathematical representation of the maximum between subjects</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/isDerivedFromMinimumOf -->
+
+    <owl:ObjectProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/isDerivedFromMinimumOf">
+        <rdfs:subPropertyOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/isDerivedFrom"/>
+        <rdfs:label>is derived from minimum of</rdfs:label>
+        <rdfs:label xml:lang="pt">é derivado do mínimo de</rdfs:label>
+        <skos:definition>indicates something which is determined or obtained by the mathematical representation of the minimum between subjects</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/isDerivedFromProductOf -->
+
+    <owl:ObjectProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/isDerivedFromProductOf">
+        <rdfs:subPropertyOf rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/isDerivedFrom"/>
+        <rdfs:label>is derived from product of</rdfs:label>
+        <rdfs:label xml:lang="pt">é derivado do produto de</rdfs:label>
+        <skos:definition>indicates something which is determined or obtained by the mathematical multiplication (product) of the subjects</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/isReducedBy -->
+
+    <owl:ObjectProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/isReducedBy">
+        <rdfs:label>is reduced by</rdfs:label>
+        <rdfs:label xml:lang="pt">é reduzido por</rdfs:label>
+        <skos:definition>makes the object smaller or less in amount by the subject&apos;s amount representation</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasCreditRiskModelTransitionDate -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasCreditRiskModelTransitionDate">
+        <rdfs:subPropertyOf rdf:resource="https://ontobacen.web.app/Foundations/Relations/hasModelTransitionDate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>has credit risk model transition date</rdfs:label>
+        <rdfs:label xml:lang="pt">tem data de transição de modelo de risco de crédito</rdfs:label>
+        <skos:definition>indicates the date on which a credit risk management model transition happens, in the context of the subject entity</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasEndingDate -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasEndingDate">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>has ending date</rdfs:label>
+        <rdfs:label xml:lang="pt">tem data final</rdfs:label>
+        <skos:definition>indicates the ending date for the period in which the conceptualization of the subject entity is valid</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasInitialDate -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasInitialDate">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>has initial date</rdfs:label>
+        <rdfs:label xml:lang="pt">tem data inicial</rdfs:label>
+        <skos:definition>indicates the beginning date for the period in which the conceptualization of the subject entity is valid</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasMarketRiskModelTransitionDate -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasMarketRiskModelTransitionDate">
+        <rdfs:subPropertyOf rdf:resource="https://ontobacen.web.app/Foundations/Relations/hasModelTransitionDate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>has market risk model transition date</rdfs:label>
+        <rdfs:label xml:lang="pt">tem data de transição de modelo de risco de mercado</rdfs:label>
+        <skos:definition>indicates the date on which a market risk management model transition happens, in the context of the subject entity</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasMaximumDayTimeDuration -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasMaximumDayTimeDuration">
+        <rdfs:subPropertyOf rdf:resource="https://ontobacen.web.app/Foundations/Relations/hasMaximumDuration"/>
+        <rdfs:label>has maximum day time duration</rdfs:label>
+        <rdfs:label xml:lang="pt">tem duração máxima (em dias e horas)</rdfs:label>
+        <skos:definition>indicates a maximum amount of time allowed for a feasible conceptualization of the subject entity, measured in a number of days and hours</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasMaximumDuration -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasMaximumDuration">
+        <rdfs:label>has maximum duration</rdfs:label>
+        <rdfs:label xml:lang="pt">tem duração máxima</rdfs:label>
+        <skos:definition>indicates a maximum amount of time allowed for a feasible conceptualization of the subject entity</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasMaximumYearMonthDuration -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasMaximumYearMonthDuration">
+        <rdfs:subPropertyOf rdf:resource="https://ontobacen.web.app/Foundations/Relations/hasMaximumDuration"/>
+        <rdfs:label>has maximum year month duration</rdfs:label>
+        <rdfs:label xml:lang="pt">tem duração máxima (em anos e meses)</rdfs:label>
+        <skos:definition>indicates a maximum amount of time allowed for a feasible conceptualization of the subject entity, measured in a number of years and months</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasMinimumDayTimeDuration -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasMinimumDayTimeDuration">
+        <rdfs:subPropertyOf rdf:resource="https://ontobacen.web.app/Foundations/Relations/hasMinimumDuration"/>
+        <rdfs:label>has minimum day time duration</rdfs:label>
+        <rdfs:label xml:lang="pt">tem duração mínima (em dias e horas)</rdfs:label>
+        <skos:definition>indicates a minimum amount of time allowed for a feasible conceptualization of the subject entity, measured in a number of days and hours</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasMinimumDuration -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasMinimumDuration">
+        <rdfs:label>has minimum duration</rdfs:label>
+        <rdfs:label xml:lang="pt">tem duração mínima</rdfs:label>
+        <skos:definition>indicates a minimum amount of time allowed for a feasible conceptualization of the subject entity</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasMinimumYearMonthDuration -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasMinimumYearMonthDuration">
+        <rdfs:subPropertyOf rdf:resource="https://ontobacen.web.app/Foundations/Relations/hasMinimumDuration"/>
+        <rdfs:label>has minimum year month duration</rdfs:label>
+        <rdfs:label xml:lang="pt">tem duração mínima (em anos e meses)</rdfs:label>
+        <skos:definition>indicates a minimum amount of time allowed for a feasible conceptualization of the subject entity, measured in a number of years and months</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasModelTransitionDate -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasModelTransitionDate">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>has model transition date</rdfs:label>
+        <rdfs:label xml:lang="pt">tem data de transição de modelo</rdfs:label>
+        <skos:definition>indicates the date on which a risk management model transition happens, in the context of the subject entity</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasOperationalRiskModelTransitionDate -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasOperationalRiskModelTransitionDate">
+        <rdfs:subPropertyOf rdf:resource="https://ontobacen.web.app/Foundations/Relations/hasModelTransitionDate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>has operational risk model transition date</rdfs:label>
+        <rdfs:label xml:lang="pt">tem data de transição de modelo de risco operacional</rdfs:label>
+        <skos:definition>indicates the date on which an operational risk management model transition happens, in the context of the subject entity</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/Relations/hasReferenceDate -->
+
+    <owl:DatatypeProperty rdf:about="https://ontobacen.web.app/Foundations/Relations/hasReferenceDate">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>has reference date</rdfs:label>
+        <rdfs:label xml:lang="pt">tem data base</rdfs:label>
+        <skos:definition>indicates the date associated with the subject&apos;s contextualization in time</skos:definition>
+    </owl:DatatypeProperty>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
