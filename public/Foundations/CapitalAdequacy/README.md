@@ -12,12 +12,6 @@
 <a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/CapitalAdequacy/OWLDoc/classes/index-CapitalAdequacy.html' >Classes</a> (17)
 </li>
 <li>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/CapitalAdequacy/OWLDoc/objectproperties/index-CapitalAdequacy.html' >Object Properties</a> (2)
-</li>
-<li>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/CapitalAdequacy/OWLDoc/dataproperties/index-CapitalAdequacy.html' >Data Properties</a> (2)
-</li>
-<li>
 <a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/CapitalAdequacy/OWLDoc/annotationproperties/index-CapitalAdequacy.html' >Annotation Properties</a> (1)
 </li>
 <li>
