@@ -23,7 +23,7 @@
     <!ENTITY ob-cap-perm "https://ontobacen.web.app/Capital/PermanentLimit/" >
     <!ENTITY fibo-fnd-acc-cur "https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/" >
     <!ENTITY ob-cap-comp "https://ontobacen.web.app/Capital/Tier1Complementary/" >
-    <!ENTITY ob-cap-com "https://ontobacen.web.app/Foundations/CapitalCompliance/" >
+    <!ENTITY ob-cap-ade "https://ontobacen.web.app/Foundations/CapitalAdequacy/" >
     <!ENTITY ob-cnt-amt "https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/" >
 ]>
 
@@ -41,7 +41,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:ob-cap-prin="https://ontobacen.web.app/Capital/Tier1Core/"
      xmlns:dct="http://purl.org/dc/terms/"
-     xmlns:ob-cap-com="https://ontobacen.web.app/Foundations/CapitalCompliance/"
+     xmlns:ob-cap-ade="https://ontobacen.web.app/Foundations/CapitalAdequacy/"
      xmlns:ob-cap-niv2="https://ontobacen.web.app/Capital/Tier2/"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:ob-cap-perm="https://ontobacen.web.app/Capital/PermanentLimit/"
@@ -60,7 +60,7 @@
         <owl:imports rdf:resource="https://ontobacen.web.app/Capital/Tier1Complementary/"/>
         <owl:imports rdf:resource="https://ontobacen.web.app/Capital/Tier1Core/"/>
         <owl:imports rdf:resource="https://ontobacen.web.app/Capital/Tier2/"/>
-        <owl:imports rdf:resource="https://ontobacen.web.app/Foundations/CapitalCompliance/"/>
+        <owl:imports rdf:resource="https://ontobacen.web.app/Foundations/CapitalAdequacy/"/>
         <owl:imports rdf:resource="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/"/>
         <owl:imports rdf:resource="https://ontobacen.web.app/Foundations/Factors/"/>
         <owl:imports rdf:resource="https://ontobacen.web.app/Foundations/Relations/"/>
@@ -1092,7 +1092,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;ReferenceCapitalLimitComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;ReferenceCapitalLimitCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1107,7 +1107,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;OperationalCapitalLimitNonComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1398,7 +1398,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;OperationalCapitalLimitNonComplianceMainlyByOperationalRiskContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContextMainlyDueToOperationalRisk"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1490,7 +1490,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;ReferenceCapitalLimitNonComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;ReferenceCapitalLimitNonCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1506,7 +1506,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;CoreCapitalLimitComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;CoreCapitalLimitCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1598,7 +1598,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;Tier1CapitalLimitNonComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;Tier1CapitalLimitNonCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1690,7 +1690,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;OperationalCapitalLimitNonComplianceMainlyByCreditRiskContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContextMainlyDueToCreditRisk"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1702,7 +1702,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;OperationalCapitalLimitNonComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -2348,7 +2348,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;Tier1CapitalLimitComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;Tier1CapitalLimitCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -2440,7 +2440,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;OperationalCapitalLimitNonComplianceMainlyByMarketRiskContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContextMainlyDueToMarketRisk"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -2730,7 +2730,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;OperationalCapitalLimitNonComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -2922,7 +2922,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;CoreCapitalLimitNonComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;CoreCapitalLimitNonCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -3014,7 +3014,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;BankingBookRiskLimitNonComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;BankingBookRiskLimitNonCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -3148,7 +3148,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;OperationalCapitalLimitNonComplianceMainlyByBankingRiskContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContextMainlyDueToBankingRisk"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -3438,7 +3438,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;OperationalCapitalLimitNonComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>
@@ -4562,7 +4562,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-com;BankingBookRiskLimitComplianceContext"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-ade;BankingBookRiskLimitCompliantContext"/>
                         <swrl:argument1 rdf:resource="urn:swrl#con"/>
                     </rdf:Description>
                 </rdf:first>

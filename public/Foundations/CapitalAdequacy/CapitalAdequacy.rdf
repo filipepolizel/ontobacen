@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY dct "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY ob-cap-ade "https://ontobacen.web.app/Foundations/CapitalAdequacy/" >
+    <!ENTITY ob-cnt-amt "https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/" >
+]>
+
+
+<rdf:RDF xmlns="https://ontobacen.web.app/Foundations/FinancialInstitutions/"
+     xml:base="https://ontobacen.web.app/Foundations/FinancialInstitutions/"
+     xmlns:ob-cap-ade="https://ontobacen.web.app/Foundations/CapitalAdequacy/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:ob-cnt-amt="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="https://ontobacen.web.app/Foundations/CapitalAdequacy/">
+        <owl:imports rdf:resource="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/BankingBookRiskLimitCompliantContext -->
+
+    <owl:Class rdf:about="&ob-cap-ade;BankingBookRiskLimitCompliantContext">
+        <rdfs:label xml:lang="en">reference capital limit considering RBAN compliant context</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em conformidade com limite operacional de patrimônio de referência considerando a RBAN</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitCompliantContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/BankingBookRiskLimitNonCompliantContext -->
+
+    <owl:Class rdf:about="&ob-cap-ade;BankingBookRiskLimitNonCompliantContext">
+        <rdfs:label xml:lang="en">reference capital limit considering RBAN non compliant context</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em não conformidade com limite operacional de patrimônio de referência considerando a RBAN</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/CoreCapitalLimitCompliantContext -->
+
+    <owl:Class rdf:about="&ob-cap-ade;CoreCapitalLimitCompliantContext">
+        <rdfs:label xml:lang="en">core capital limit compliant context</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em conformidade com limite operacional de capital principal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitCompliantContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/CoreCapitalLimitNonCompliantContext -->
+
+    <owl:Class rdf:about="&ob-cap-ade;CoreCapitalLimitNonCompliantContext">
+        <rdfs:label xml:lang="en">core capital limit non compliant context</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em não conformidade com limite operacional de capital principal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/OperationalCapitalLimitCompliantContext -->
+
+    <owl:Class rdf:about="&ob-cap-ade;OperationalCapitalLimitCompliantContext">
+        <rdfs:label xml:lang="en">operational capital limit compliant context</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em conformidade com limite operacional de capital</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cnt-amt;FinancialSystemGovernanceContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/OperationalCapitalLimitNonCompliantContext -->
+
+    <owl:Class rdf:about="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext">
+        <rdfs:label xml:lang="en">operational capital limit non compliant context</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em não conformidade com limite operacional de capital</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cnt-amt;FinancialSystemGovernanceContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/ReferenceCapitalLimitCompliantContext -->
+
+    <owl:Class rdf:about="&ob-cap-ade;ReferenceCapitalLimitCompliantContext">
+        <rdfs:label xml:lang="en">reference capital limit compliant context</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em conformidade com limite operacional de patrimônio de referência</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitCompliantContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/ReferenceCapitalLimitNonCompliantContext -->
+
+    <owl:Class rdf:about="&ob-cap-ade;ReferenceCapitalLimitNonCompliantContext">
+        <rdfs:label xml:lang="en">reference capital limit non compliant context</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em não conformidade com limite operacional de patrimônio de referência</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/Tier1CapitalLimitCompliantContext -->
+
+    <owl:Class rdf:about="&ob-cap-ade;Tier1CapitalLimitCompliantContext">
+        <rdfs:label xml:lang="en">tier 1 capital limit compliant context</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em conformidade com limite operacional de capital nivel 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitCompliantContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/Tier1CapitalLimitNonCompliantContext -->
+
+    <owl:Class rdf:about="&ob-cap-ade;Tier1CapitalLimitNonCompliantContext">
+        <rdfs:label xml:lang="en">tier 1 capital limit non compliant context</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em não conformidade com limite operacional de capital nivel 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
+    </owl:Class>
+
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/OperationalCapitalLimitNonCompliantContextMainlyDueToBankingRisk-->
+
+    <owl:Class rdf:about="&ob-cap-ade;OperationalCapitalLimitNonCompliantContextMainlyDueToBankingRisk">
+        <rdfs:label xml:lang="en">capital limit non compliant context mainly due to banking book risk</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em não conformidade com limite operacional devido principalmente ao risco da carteira banking</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
+    </owl:Class>
+
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/OperationalCapitalLimitNonCompliantContextMainlyDueToCreditRisk-->
+
+    <owl:Class rdf:about="&ob-cap-ade;OperationalCapitalLimitNonCompliantContextMainlyDueToCreditRisk">
+        <rdfs:label xml:lang="en">capital limit non compliant context mainly due to credit risk</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em não conformidade com limite operacional devido principalmente ao risco de crédito</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
+    </owl:Class>
+
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/OperationalCapitalLimitNonCompliantContextMainlyDueToMarketRisk-->
+
+    <owl:Class rdf:about="&ob-cap-ade;OperationalCapitalLimitNonCompliantContextMainlyDueToMarketRisk">
+        <rdfs:label xml:lang="en">capital limit non compliant context mainly due to market risk</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em não conformidade com limite operacional devido principalmente ao risco de mercado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
+    </owl:Class>
+
+
+
+    <!-- https://ontobacen.web.app/Foundations/CapitalAdequacy/OperationalCapitalLimitNonCompliantContextMainlyDueToOperationalRisk-->
+
+    <owl:Class rdf:about="&ob-cap-ade;OperationalCapitalLimitNonCompliantContextMainlyDueToOperationalRisk">
+        <rdfs:label xml:lang="en">capital limit non compliant context mainly due to operational risk</rdfs:label>
+        <rdfs:label xml:lang="pt">contexto em não conformidade com limite operacional devido principalmente ao risco operacional</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-cap-ade;OperationalCapitalLimitNonCompliantContext"/>
+    </owl:Class>
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

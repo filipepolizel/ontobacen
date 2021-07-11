@@ -7,7 +7,7 @@
       "**/node_modules/**"
     ],
     "redirects": [
-      { "source": "/Foundations/CapitalCompliance/", "destination": "/Foundations/CapitalCompliance/CapitalCompliance.rdf", "type": 301 },
+      { "source": "/Foundations/CapitalAdequacy/", "destination": "/Foundations/CapitalAdequacy/CapitalAdequacy.rdf", "type": 301 },
       { "source": "/Foundations/ContextualizedMonetaryAmount/", "destination": "/Foundations/ContextualizedMonetaryAmount/ContextualizedMonetaryAmount.rdf", "type": 301 },
       { "source": "/Foundations/Factors/", "destination": "/Foundations/Factors/Factors.rdf", "type": 301 },
       { "source": "/Foundations/FinancialInstitutions/", "destination": "/Foundations/FinancialInstitutions/FinancialInstitutions.rdf", "type": 301 },
