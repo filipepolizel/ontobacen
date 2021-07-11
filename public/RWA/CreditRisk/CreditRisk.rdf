@@ -56,337 +56,337 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__adiantamentos_concedidos_pela_instituicao -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByAdvancesGrantedByInstitution -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__adiantamentos_concedidos_pela_instituicao">
-        <rdfs:label xml:lang="en">rwacpad is composed by advances granted by the institution</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by adiantamentos concedidos pela instituicao</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByAdvancesGrantedByInstitution">
+        <rdfs:label xml:lang="en">RWACPAD is composed by advances granted by institution</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by adiantamentos concedidos pela instituicao</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;adiantamentos_concedidos_pela_instituicao"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;AdvancesGrantedByInstitution"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__ajuste_para_derivativos_decorrente_da_variacao_da_qualidade_crediticia_da_contraparte_CVA -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByAdjustmentForDerivativesResultingFromVariationOfCounterpartyCreditworthinessCVA -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__ajuste_para_derivativos_decorrente_da_variacao_da_qualidade_crediticia_da_contraparte_CVA">
-        <rdfs:label xml:lang="en">rwacpad is composed by adjustment for derivatives resulting from the variation of the counterparty creditworthiness CVA</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by ajuste para derivativos decorrente da variacao da qualidade crediticia da contraparte CVA</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByAdjustmentForDerivativesResultingFromVariationOfCounterpartyCreditworthinessCVA">
+        <rdfs:label xml:lang="en">RWACPAD is composed by adjustment for derivatives resulting from variation of counterparty creditworthiness CVA</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by ajuste para derivativos decorrente da variacao da qualidade crediticia da contraparte CVA</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;ajuste_para_derivativos_decorrente_da_variacao_da_qualidade_crediticia_da_contraparte_CVA"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;AdjustmentForDerivativesResultingFromVariationOfCounterpartyCreditworthinessCVA"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__aplicacoes_interfinanceiras_de_liquidez -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByLiquidityInterbankDeposits -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__aplicacoes_interfinanceiras_de_liquidez">
-        <rdfs:label xml:lang="en">rwacpad is composed by interbank liquidity applications</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by aplicacoes interfinanceiras de liquidez</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByLiquidityInterbankDeposits">
+        <rdfs:label xml:lang="en">RWACPAD is composed by interbank liquidity applications</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by aplicacoes interfinanceiras de liquidez</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;aplicacoes_interfinanceiras_de_liquidez"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;LiquidityInterbankDeposits"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__credito_a_liberar_em_360_dias -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByCreditToBeReleasedIn360Days -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__credito_a_liberar_em_360_dias">
-        <rdfs:label xml:lang="en">rwacpad is composed by credit to release in 360 days</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by credito a liberar em 360 dias</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByCreditToBeReleasedIn360Days">
+        <rdfs:label xml:lang="en">RWACPAD is composed by credit to be released in 360 days</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by credito a liberar em 360 dias</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;credito_a_liberar_em_360_dias"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;CreditToBeReleasedIn360Days"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__creditos_tributarios -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByTaxCredits -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__creditos_tributarios">
-        <rdfs:label xml:lang="en">rwacpad is composed by tax credits</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by creditos tributarios</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByTaxCredits">
+        <rdfs:label xml:lang="en">RWACPAD is composed by tax credits</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by creditos tributarios</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;creditos_tributarios"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;TaxCredits"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__demais_operacoes_de_credito -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByOtherCreditContracts -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__demais_operacoes_de_credito">
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByOtherCreditContracts">
         <rdfs:label xml:lang="en">credit contracts is composed by other credit contracts</rdfs:label>
         <rdfs:label xml:lang="pt">operacoes de credito is composed by demais operacoes de credito</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;demais_operacoes_de_credito"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;operacoes_de_credito"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;OtherCreditContracts"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;CreditContracts"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__disponibilidades -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByAvailabilities -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__disponibilidades">
-        <rdfs:label xml:lang="en">rwacpad is composed by availabilities</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by disponibilidades</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByAvailabilities">
+        <rdfs:label xml:lang="en">RWACPAD is composed by availabilities</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by disponibilidades</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;disponibilidades"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;Availabilities"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__garantias_prestadas -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByGrantedWarranties -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__garantias_prestadas">
-        <rdfs:label xml:lang="en">rwacpad is composed by granted warranties</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by garantias prestadas</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByGrantedWarranties">
+        <rdfs:label xml:lang="en">RWACPAD is composed by granted warranties</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by garantias prestadas</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;garantias_prestadas"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;GrantedWarranties"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__limite_de_credito_nao_cancelavel -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByNonCancellableCreditLimit -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__limite_de_credito_nao_cancelavel">
-        <rdfs:label xml:lang="en">rwacpad is composed by non-cancellable credit limit</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by limite de credito nao cancelavel</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByNonCancellableCreditLimit">
+        <rdfs:label xml:lang="en">RWACPAD is composed by non-cancellable credit limit</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by limite de credito nao cancelavel</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;limite_de_credito_nao_cancelavel"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;NonCancellableCreditLimit"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__limite_de_credito_varejo -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByRetailCreditLimit -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__limite_de_credito_varejo">
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByRetailCreditLimit">
         <rdfs:label xml:lang="en">non-cancellable credit limit is composed by retail credit limits</rdfs:label>
         <rdfs:label xml:lang="pt">limite de credito nao cancelavel is composed by limite de credito varejo</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;limite_de_credito_nao_cancelavel"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;limite_de_credito_varejo"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;NonCancellableCreditLimit"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;RetailCreditLimit"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__operacoes_a_liquidar_de_compra_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByPurshaseContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__operacoes_a_liquidar_de_compra_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista">
-        <rdfs:label xml:lang="en">rwacpad is composed by purshase contracts of foreign currencies or gold or securities to be settled on the spot market</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by operacoes a liquidar de compra de moedas estrangeiras ouro ou de titulos e valores mobiliarios no mercado a vista</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByPurshaseContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket">
+        <rdfs:label xml:lang="en">RWACPAD is composed by purshase contracts of foreign currencies or gold or securities to be settled on the spot market</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by operacoes a liquidar de compra de moedas estrangeiras ouro ou de titulos e valores mobiliarios no mercado a vista</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;operacoes_a_liquidar_de_compra_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;PurshaseContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__operacoes_a_liquidar_de_venda_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedBySalesContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__operacoes_a_liquidar_de_venda_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista">
-        <rdfs:label xml:lang="en">rwacpad is composed by sales contracts of foreign currencies or gold or securities to be settled on the spot market</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by operacoes a liquidar de venda de moedas estrangeiras ouro ou de titulos e valores mobiliarios no mercado a vista</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedBySalesContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket">
+        <rdfs:label xml:lang="en">RWACPAD is composed by sales contracts of foreign currencies or gold or securities to be settled on the spot market</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by operacoes a liquidar de venda de moedas estrangeiras ouro ou de titulos e valores mobiliarios no mercado a vista</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;operacoes_a_liquidar_de_venda_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;SalesContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__operacoes_de_arrendamento_mercantil -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByLeasingContracts -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__operacoes_de_arrendamento_mercantil">
-        <rdfs:label xml:lang="en">rwacpad is composed by leasing contracts</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by operacoes de arrendamento mercantil</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByLeasingContracts">
+        <rdfs:label xml:lang="en">RWACPAD is composed by leasing contracts</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by operacoes de arrendamento mercantil</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;operacoes_de_arrendamento_mercantil"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;LeasingContracts"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__operacoes_de_credito -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByCreditContracts -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__operacoes_de_credito">
-        <rdfs:label xml:lang="en">rwacpad is composed by credit contracts</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by operacoes de credito</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByCreditContracts">
+        <rdfs:label xml:lang="en">RWACPAD is composed by credit contracts</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by operacoes de credito</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;operacoes_de_credito"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;CreditContracts"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__operacoes_de_credito_varejo -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByRetailCreditContracts -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__operacoes_de_credito_varejo">
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByRetailCreditContracts">
         <rdfs:label xml:lang="en">credit contracts is composed by retail credit contracts</rdfs:label>
         <rdfs:label xml:lang="pt">operacoes de credito is composed by operacoes de credito varejo</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;operacoes_de_credito"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;operacoes_de_credito_varejo"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;CreditContracts"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;RetailCreditContracts"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__operacoes_de_emprestimos_de_ativos -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByAssetLoanContracts -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__operacoes_de_emprestimos_de_ativos">
-        <rdfs:label xml:lang="en">rwacpad is composed by asset loan contracts</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by operacoes de emprestimos de ativos</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByAssetLoanContracts">
+        <rdfs:label xml:lang="en">RWACPAD is composed by asset loan contracts</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by operacoes de emprestimos de ativos</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;operacoes_de_emprestimos_de_ativos"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;AssetLoanContracts"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__outros_direitos -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByOtherRights -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__outros_direitos">
-        <rdfs:label xml:lang="en">rwacpad is composed by other rights</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by outros direitos</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByOtherRights">
+        <rdfs:label xml:lang="en">RWACPAD is composed by other rights</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by outros direitos</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;outros_direitos"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;OtherRights"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__outros_limites_de_credito -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByOtherCreditLimits -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__outros_limites_de_credito">
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByOtherCreditLimits">
         <rdfs:label xml:lang="en">non-cancellable credit limit is composed by other credit limits</rdfs:label>
         <rdfs:label xml:lang="pt">limite de credito nao cancelavel is composed by outros limites de credito</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;limite_de_credito_nao_cancelavel"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;outros_limites_de_credito"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;NonCancellableCreditLimit"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;OtherCreditLimits"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__outros_valores_e_bens -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByOtherAssets -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__outros_valores_e_bens">
-        <rdfs:label xml:lang="en">rwacpad is composed by other assets</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by outros valores e bens</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByOtherAssets">
+        <rdfs:label xml:lang="en">RWACPAD is composed by other assets</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by outros valores e bens</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;outros_valores_e_bens"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;OtherAssets"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__participacoes_em_fundos_de_garantia_de_camaras_de_compensacao_ou_liquidacao -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedBySharesInGuaranteeFundsOfClearingOrSettlementAgencies -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__participacoes_em_fundos_de_garantia_de_camaras_de_compensacao_ou_liquidacao">
-        <rdfs:label xml:lang="en">rwacpad is composed by participations in guarantee funds of clearing or settlement agencies</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by participacoes em fundos de garantia de camaras de compensacao ou liquidacao</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedBySharesInGuaranteeFundsOfClearingOrSettlementAgencies">
+        <rdfs:label xml:lang="en">RWACPAD is composed by shares in guarantee funds of clearing or settlement agencies</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by participacoes em fundos de garantia de camaras de compensacao ou liquidacao</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;participacoes_em_fundos_de_garantia_de_camaras_de_compensacao_ou_liquidacao"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;SharesInGuaranteeFundsOfClearingOrSettlementAgencies"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__permanente -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByPermanentAccounts -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__permanente">
-        <rdfs:label xml:lang="en">rwacpad is composed by permanent accounts</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by permanente</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByPermanentAccounts">
+        <rdfs:label xml:lang="en">RWACPAD is composed by permanent accounts</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by permanente</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;permanente"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;PermanentAccounts"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__relacoes_interfinanceiras -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByInterbankRelationships -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__relacoes_interfinanceiras">
-        <rdfs:label xml:lang="en">rwacpad is composed by interbank relations</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by relacoes interfinanceiras</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByInterbankRelationships">
+        <rdfs:label xml:lang="en">RWACPAD is composed by interbank relationships</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by relacoes interfinanceiras</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;relacoes_interfinanceiras"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;InterbankRelationships"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__titulos_e_valores_mobiliarios_e_instrumentos_financeiros_derivativos -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedBySecuritiesAndDerivatives -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__titulos_e_valores_mobiliarios_e_instrumentos_financeiros_derivativos">
-        <rdfs:label xml:lang="en">rwacpad is composed by securities and derivatives</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by titulos e valores mobiliarios e instrumentos financeiros derivativos</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedBySecuritiesAndDerivatives">
+        <rdfs:label xml:lang="en">RWACPAD is composed by securities and derivatives</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by titulos e valores mobiliarios e instrumentos financeiros derivativos</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;titulos_e_valores_mobiliarios_e_instrumentos_financeiros_derivativos"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;SecuritiesAndDerivatives"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_composed_by__valores_a_serem_deduzidos_do_rwacpad -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isComposedByValuesToBeDeductedFromRWACPAD -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_composed_by__valores_a_serem_deduzidos_do_rwacpad">
-        <rdfs:label xml:lang="en">rwacpad is composed by values to be deducted from rwacpad</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad is composed by valores a serem deduzidos do rwacpad</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isComposedByValuesToBeDeductedFromRWACPAD">
+        <rdfs:label xml:lang="en">RWACPAD is composed by values to be deducted from RWACPAD</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD is composed by valores a serem deduzidos do RWACPAD</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;valores_a_serem_deduzidos_do_rwacpad"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPAD"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;ValuesToBeDeductedFromRWACPAD"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_derived_from__fator_S -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isDerivedFromSFactor -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_derived_from__fator_S">
-        <rdfs:label xml:lang="en">rwacpad considering S factor is derived from S factor</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad considerando fator S is derived from fator S</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isDerivedFromSFactor">
+        <rdfs:label xml:lang="en">RWACPAD considering S factor is derived from S factor</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD considerando fator S is derived from fator S</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isDerivedFromProductOf"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad_considerando_fator_S"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPADConsideringSFactor"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_derived_from__rwacirb -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isDerivedFromRWACIRB -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_derived_from__rwacirb">
-        <rdfs:label xml:lang="en">rwacirb considering S factor is derived from rwacirb</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacirb considerando fator S is derived from rwacirb</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isDerivedFromRWACIRB">
+        <rdfs:label xml:lang="en">RWACIRB considering S factor is derived from RWACIRB</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACIRB considerando fator S is derived from RWACIRB</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isDerivedFromMaximumOf"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;rwacirb"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacirb_considerando_fator_S"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;RWACIRB"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACIRBConsideringSFactor"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_derived_from__rwacpad -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isDerivedFromRWACPAD -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_derived_from__rwacpad">
-        <rdfs:label xml:lang="en">rwacpad considering S factor is derived from rwacpad</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad considerando fator S is derived from rwacpad</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isDerivedFromRWACPAD">
+        <rdfs:label xml:lang="en">RWACPAD considering S factor is derived from RWACPAD</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD considerando fator S is derived from RWACPAD</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isDerivedFromProductOf"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;rwacpad"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacpad_considerando_fator_S"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;RWACPAD"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACPADConsideringSFactor"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/is_derived_from__rwacpad_considerando_fator_S -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/isDerivedFromRWACPADConsideringSFactor -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-cred;is_derived_from__rwacpad_considerando_fator_S">
-        <rdfs:label xml:lang="en">rwacirb considering S factor is derived from rwacpad considering S factor</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacirb considerando fator S is derived from rwacpad considerando fator S</rdfs:label>
+    <owl:ObjectProperty rdf:about="&ob-rwa-cred;isDerivedFromRWACPADConsideringSFactor">
+        <rdfs:label xml:lang="en">RWACIRB considering S factor is derived from RWACPAD considering S factor</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACIRB considerando fator S is derived from RWACPAD considerando fator S</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isDerivedFromMaximumOf"/>
-        <rdfs:domain rdf:resource="&ob-rwa-cred;rwacirb_considerando_fator_S"/>
-        <rdfs:range rdf:resource="&ob-rwa-cred;rwacpad_considerando_fator_S"/>
+        <rdfs:domain rdf:resource="&ob-rwa-cred;RWACIRBConsideringSFactor"/>
+        <rdfs:range rdf:resource="&ob-rwa-cred;RWACPADConsideringSFactor"/>
     </owl:ObjectProperty>
     
 
@@ -402,39 +402,39 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/adiantamentos_concedidos_pela_instituicao -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/AdvancesGrantedByInstitution -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;adiantamentos_concedidos_pela_instituicao">
-        <rdfs:label xml:lang="en">advances granted by the institution</rdfs:label>
+    <owl:Class rdf:about="&ob-rwa-cred;AdvancesGrantedByInstitution">
+        <rdfs:label xml:lang="en">advances granted by institution</rdfs:label>
         <rdfs:label xml:lang="pt">adiantamentos concedidos pela instituicao</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/ajuste_para_derivativos_decorrente_da_variacao_da_qualidade_crediticia_da_contraparte_CVA -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/AdjustmentForDerivativesResultingFromVariationOfCounterpartyCreditworthinessCVA -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;ajuste_para_derivativos_decorrente_da_variacao_da_qualidade_crediticia_da_contraparte_CVA">
-        <rdfs:label xml:lang="en">adjustment for derivatives resulting from the variation of the counterparty creditworthiness CVA</rdfs:label>
+    <owl:Class rdf:about="&ob-rwa-cred;AdjustmentForDerivativesResultingFromVariationOfCounterpartyCreditworthinessCVA">
+        <rdfs:label xml:lang="en">adjustment for derivatives resulting from variation of counterparty creditworthiness CVA</rdfs:label>
         <rdfs:label xml:lang="pt">ajuste para derivativos decorrente da variacao da qualidade crediticia da contraparte CVA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/aplicacoes_interfinanceiras_de_liquidez -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/LiquidityInterbankDeposits -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;aplicacoes_interfinanceiras_de_liquidez">
-        <rdfs:label xml:lang="en">liquidity interbank applications</rdfs:label>
+    <owl:Class rdf:about="&ob-rwa-cred;LiquidityInterbankDeposits">
+        <rdfs:label xml:lang="en">liquidity interbank deposits</rdfs:label>
         <rdfs:label xml:lang="pt">aplicacoes interfinanceiras de liquidez</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/componente_do_rwa_para_risco_de_credito -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/CreditRiskRWAComponent -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito">
+    <owl:Class rdf:about="&ob-rwa-cred;CreditRiskRWAComponent">
         <rdfs:label xml:lang="en">credit risk rwa component</rdfs:label>
         <rdfs:label xml:lang="pt">componente do rwa para risco de credito</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cnt-amt;ContextualizedWeightedAssets"/>
@@ -442,223 +442,223 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/credito_a_liberar_em_360_dias -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/CreditToBeReleasedIn360Days -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;credito_a_liberar_em_360_dias">
-        <rdfs:label xml:lang="en">credit to release in 360 days</rdfs:label>
+    <owl:Class rdf:about="&ob-rwa-cred;CreditToBeReleasedIn360Days">
+        <rdfs:label xml:lang="en">credit to be released in 360 days</rdfs:label>
         <rdfs:label xml:lang="pt">credito a liberar em 360 dias</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/creditos_tributarios -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/TaxCredits -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;creditos_tributarios">
+    <owl:Class rdf:about="&ob-rwa-cred;TaxCredits">
         <rdfs:label xml:lang="en">tax credits</rdfs:label>
         <rdfs:label xml:lang="pt">creditos tributarios</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/demais_operacoes_de_credito -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/OtherCreditContracts -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;demais_operacoes_de_credito">
+    <owl:Class rdf:about="&ob-rwa-cred;OtherCreditContracts">
         <rdfs:label xml:lang="en">other credit contracts</rdfs:label>
         <rdfs:label xml:lang="pt">demais operacoes de credito</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/disponibilidades -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/Availabilities -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;disponibilidades">
+    <owl:Class rdf:about="&ob-rwa-cred;Availabilities">
         <rdfs:label xml:lang="en">availabilities</rdfs:label>
         <rdfs:label xml:lang="pt">disponibilidades</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/garantias_prestadas -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/GrantedWarranties -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;garantias_prestadas">
+    <owl:Class rdf:about="&ob-rwa-cred;GrantedWarranties">
         <rdfs:label xml:lang="en">granted warranties</rdfs:label>
         <rdfs:label xml:lang="pt">garantias prestadas</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/limite_de_credito_nao_cancelavel -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/NonCancellableCreditLimit -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;limite_de_credito_nao_cancelavel">
+    <owl:Class rdf:about="&ob-rwa-cred;NonCancellableCreditLimit">
         <rdfs:label xml:lang="en">non-cancellable credit limit</rdfs:label>
         <rdfs:label xml:lang="pt">limite de credito nao cancelavel</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__outros_limites_de_credito"/>
-                <owl:someValuesFrom rdf:resource="&ob-rwa-cred;outros_limites_de_credito"/>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByOtherCreditLimits"/>
+                <owl:someValuesFrom rdf:resource="&ob-rwa-cred;OtherCreditLimits"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__limite_de_credito_varejo"/>
-                <owl:someValuesFrom rdf:resource="&ob-rwa-cred;limite_de_credito_varejo"/>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByRetailCreditLimit"/>
+                <owl:someValuesFrom rdf:resource="&ob-rwa-cred;RetailCreditLimit"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/limite_de_credito_varejo -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RetailCreditLimit -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;limite_de_credito_varejo">
+    <owl:Class rdf:about="&ob-rwa-cred;RetailCreditLimit">
         <rdfs:label xml:lang="en">retail credit limit</rdfs:label>
         <rdfs:label xml:lang="pt">limite de credito varejo</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/operacoes_a_liquidar_de_compra_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/PurshaseContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;operacoes_a_liquidar_de_compra_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista">
+    <owl:Class rdf:about="&ob-rwa-cred;PurshaseContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket">
         <rdfs:label xml:lang="en">purshase contracts of foreign currencies or gold or securities to be settled on the spot market</rdfs:label>
         <rdfs:label xml:lang="pt">operacoes a liquidar de compra de moedas estrangeiras ouro ou de titulos e valores mobiliarios no mercado a vista</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/operacoes_a_liquidar_de_venda_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/SalesContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;operacoes_a_liquidar_de_venda_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista">
+    <owl:Class rdf:about="&ob-rwa-cred;SalesContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket">
         <rdfs:label xml:lang="en">sales contracts of foreign currencies or gold or securities to be settled on the spot market</rdfs:label>
         <rdfs:label xml:lang="pt">operacoes a liquidar de venda de moedas estrangeiras ouro ou de titulos e valores mobiliarios no mercado a vista</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/operacoes_de_arrendamento_mercantil -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/LeasingContracts -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;operacoes_de_arrendamento_mercantil">
+    <owl:Class rdf:about="&ob-rwa-cred;LeasingContracts">
         <rdfs:label xml:lang="en">leasing contracts</rdfs:label>
         <rdfs:label xml:lang="pt">operacoes de arrendamento mercantil</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/operacoes_de_credito -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/CreditContracts -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;operacoes_de_credito">
+    <owl:Class rdf:about="&ob-rwa-cred;CreditContracts">
         <rdfs:label xml:lang="en">credit contracts</rdfs:label>
         <rdfs:label xml:lang="pt">operacoes de credito</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_de_credito_varejo"/>
-                <owl:someValuesFrom rdf:resource="&ob-rwa-cred;operacoes_de_credito_varejo"/>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByRetailCreditContracts"/>
+                <owl:someValuesFrom rdf:resource="&ob-rwa-cred;RetailCreditContracts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__demais_operacoes_de_credito"/>
-                <owl:someValuesFrom rdf:resource="&ob-rwa-cred;demais_operacoes_de_credito"/>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByOtherCreditContracts"/>
+                <owl:someValuesFrom rdf:resource="&ob-rwa-cred;OtherCreditContracts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/operacoes_de_credito_varejo -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RetailCreditContracts -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;operacoes_de_credito_varejo">
+    <owl:Class rdf:about="&ob-rwa-cred;RetailCreditContracts">
         <rdfs:label xml:lang="en">retail credit contracts</rdfs:label>
         <rdfs:label xml:lang="pt">operacoes de credito varejo</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/operacoes_de_emprestimos_de_ativos -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/AssetLoanContracts -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;operacoes_de_emprestimos_de_ativos">
+    <owl:Class rdf:about="&ob-rwa-cred;AssetLoanContracts">
         <rdfs:label xml:lang="en">asset loan contracts</rdfs:label>
         <rdfs:label xml:lang="pt">operacoes de emprestimos de ativos</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/outros_direitos -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/OtherRights -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;outros_direitos">
+    <owl:Class rdf:about="&ob-rwa-cred;OtherRights">
         <rdfs:label xml:lang="en">other rights</rdfs:label>
         <rdfs:label xml:lang="pt">outros direitos</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/outros_limites_de_credito -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/OtherCreditLimits -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;outros_limites_de_credito">
+    <owl:Class rdf:about="&ob-rwa-cred;OtherCreditLimits">
         <rdfs:label xml:lang="en">other credit limits</rdfs:label>
         <rdfs:label xml:lang="pt">outros limites de credito</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/outros_valores_e_bens -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/OtherAssets -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;outros_valores_e_bens">
+    <owl:Class rdf:about="&ob-rwa-cred;OtherAssets">
         <rdfs:label xml:lang="en">other assets</rdfs:label>
         <rdfs:label xml:lang="pt">outros valores e bens</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/participacoes_em_fundos_de_garantia_de_camaras_de_compensacao_ou_liquidacao -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/SharesInGuaranteeFundsOfClearingOrSettlementAgencies -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;participacoes_em_fundos_de_garantia_de_camaras_de_compensacao_ou_liquidacao">
-        <rdfs:label xml:lang="en">participations in guarantee funds of clearing or settlement agencies</rdfs:label>
+    <owl:Class rdf:about="&ob-rwa-cred;SharesInGuaranteeFundsOfClearingOrSettlementAgencies">
+        <rdfs:label xml:lang="en">shares in guarantee funds of clearing or settlement agencies</rdfs:label>
         <rdfs:label xml:lang="pt">participacoes em fundos de garantia de camaras de compensacao ou liquidacao</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/permanente -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/PermanentAccounts -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;permanente">
+    <owl:Class rdf:about="&ob-rwa-cred;PermanentAccounts">
         <rdfs:label xml:lang="en">permanent accounts</rdfs:label>
         <rdfs:label xml:lang="pt">permanente</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/relacoes_interfinanceiras -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/InterbankRelationships -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;relacoes_interfinanceiras">
-        <rdfs:label xml:lang="en">interbank relations</rdfs:label>
+    <owl:Class rdf:about="&ob-rwa-cred;InterbankRelationships">
+        <rdfs:label xml:lang="en">interbank relationships</rdfs:label>
         <rdfs:label xml:lang="pt">relacoes interfinanceiras</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwa_para_risco_de_credito -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/CreditRiskRWA -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;rwa_para_risco_de_credito">
+    <owl:Class rdf:about="&ob-rwa-cred;CreditRiskRWA">
         <rdfs:label xml:lang="en">credit risk rwa</rdfs:label>
         <rdfs:label xml:lang="pt">rwa para risco de credito</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cnt-amt;ContextualizedWeightedAssets"/>
@@ -666,263 +666,73 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwa_para_risco_de_credito_reportado -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/ReportedCreditRiskRWA -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;rwa_para_risco_de_credito_reportado">
+    <owl:Class rdf:about="&ob-rwa-cred;ReportedCreditRiskRWA">
         <rdfs:label xml:lang="en">reported credit risk rwa</rdfs:label>
         <rdfs:label xml:lang="pt">rwa para risco de credito reportado</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWA"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwacirb -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RWACIRB -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;rwacirb">
-        <rdfs:label xml:lang="en">rwacirb</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacirb</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+    <owl:Class rdf:about="&ob-rwa-cred;RWACIRB">
+        <rdfs:label xml:lang="en">RWACIRB</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACIRB</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwacirb_avancada -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RWACIRB_Advanced -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;rwacirb_avancada">
-        <rdfs:label xml:lang="pt">rwacirb avancada</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;rwacirb"/>
-        <rdfs:comment xml:lang="en">rwacirb advanced</rdfs:comment>
+    <owl:Class rdf:about="&ob-rwa-cred;RWACIRB_Advanced">
+        <rdfs:label xml:lang="pt">RWACIRB avancada</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;RWACIRB"/>
+        <rdfs:comment xml:lang="en">RWACIRB advanced</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwacirb_basica -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RWACIRB_Basic -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;rwacirb_basica">
-        <rdfs:label xml:lang="pt">rwacirb basica</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;rwacirb"/>
-        <rdfs:comment xml:lang="en">rwacirb basic</rdfs:comment>
+    <owl:Class rdf:about="&ob-rwa-cred;RWACIRB_Basic">
+        <rdfs:label xml:lang="pt">RWACIRB basica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;RWACIRB"/>
+        <rdfs:comment xml:lang="en">RWACIRB basic</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwacirb_classificacao_interna -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RWACIRB_InternalClassification -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;rwacirb_classificacao_interna">
-        <rdfs:label xml:lang="pt">rwacirb classificacao interna</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;rwacirb"/>
-        <rdfs:comment xml:lang="en">rwacirb internal classification</rdfs:comment>
+    <owl:Class rdf:about="&ob-rwa-cred;RWACIRB_InternalClassification">
+        <rdfs:label xml:lang="pt">RWACIRB classificacao interna</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;RWACIRB"/>
+        <rdfs:comment xml:lang="en">RWACIRB internal classification</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwacirb_considerando_fator_S -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RWACIRBConsideringSFactor -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;rwacirb_considerando_fator_S">
-        <rdfs:label xml:lang="en">rwacirb considering S factor</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacirb considerando fator S</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;rwa_para_risco_de_credito"/>
+    <owl:Class rdf:about="&ob-rwa-cred;RWACIRBConsideringSFactor">
+        <rdfs:label xml:lang="en">RWACIRB considering S factor</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACIRB considerando fator S</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWA"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_derived_from__rwacirb"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;rwacirb"/>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isDerivedFromRWACIRB"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;RWACIRB"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_derived_from__rwacpad_considerando_fator_S"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;rwacpad_considerando_fator_S"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwacirb_formula_supervisor -->
-
-    <owl:Class rdf:about="&ob-rwa-cred;rwacirb_formula_supervisor">
-        <rdfs:label xml:lang="pt">rwacirb formula supervisor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;rwacirb"/>
-        <rdfs:comment xml:lang="en">rwacirb supervisor formula</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwacirb_pd_lgd -->
-
-    <owl:Class rdf:about="&ob-rwa-cred;rwacirb_pd_lgd">
-        <rdfs:label xml:lang="pt">rwacirb pd lgd</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;rwacirb"/>
-        <rdfs:comment xml:lang="en">rwacirb pd lgd</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwacirb_simplificada -->
-
-    <owl:Class rdf:about="&ob-rwa-cred;rwacirb_simplificada">
-        <rdfs:label xml:lang="pt">rwacirb simplificada</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;rwacirb"/>
-        <rdfs:comment xml:lang="en">rwacirb simplified</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwacirb_var -->
-
-    <owl:Class rdf:about="&ob-rwa-cred;rwacirb_var">
-        <rdfs:label xml:lang="pt">rwacirb var</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;rwacirb"/>
-        <rdfs:comment xml:lang="en">rwacirb var</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwacpad -->
-
-    <owl:Class rdf:about="&ob-rwa-cred;rwacpad">
-        <rdfs:label xml:lang="en">rwacpad</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;rwa_para_risco_de_credito"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__participacoes_em_fundos_de_garantia_de_camaras_de_compensacao_ou_liquidacao"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;participacoes_em_fundos_de_garantia_de_camaras_de_compensacao_ou_liquidacao"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__limite_de_credito_nao_cancelavel"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;limite_de_credito_nao_cancelavel"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__outros_valores_e_bens"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;outros_valores_e_bens"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__adiantamentos_concedidos_pela_instituicao"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;adiantamentos_concedidos_pela_instituicao"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__garantias_prestadas"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;garantias_prestadas"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_a_liquidar_de_venda_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;operacoes_a_liquidar_de_venda_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_de_emprestimos_de_ativos"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;operacoes_de_emprestimos_de_ativos"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__outros_direitos"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;outros_direitos"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__permanente"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;permanente"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__ajuste_para_derivativos_decorrente_da_variacao_da_qualidade_crediticia_da_contraparte_CVA"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;ajuste_para_derivativos_decorrente_da_variacao_da_qualidade_crediticia_da_contraparte_CVA"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__valores_a_serem_deduzidos_do_rwacpad"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;valores_a_serem_deduzidos_do_rwacpad"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__relacoes_interfinanceiras"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;relacoes_interfinanceiras"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__titulos_e_valores_mobiliarios_e_instrumentos_financeiros_derivativos"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;titulos_e_valores_mobiliarios_e_instrumentos_financeiros_derivativos"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_a_liquidar_de_compra_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;operacoes_a_liquidar_de_compra_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_de_arrendamento_mercantil"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;operacoes_de_arrendamento_mercantil"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__creditos_tributarios"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;creditos_tributarios"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_de_credito"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;operacoes_de_credito"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__credito_a_liberar_em_360_dias"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;credito_a_liberar_em_360_dias"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__aplicacoes_interfinanceiras_de_liquidez"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;aplicacoes_interfinanceiras_de_liquidez"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_composed_by__disponibilidades"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;disponibilidades"/>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isDerivedFromRWACPADConsideringSFactor"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;RWACPADConsideringSFactor"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -930,16 +740,189 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/rwacpad_considerando_fator_S -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RWACIRB_SupervisorFormula -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;rwacpad_considerando_fator_S">
-        <rdfs:label xml:lang="en">rwacpad considering S factor</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacpad considerando fator S</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+    <owl:Class rdf:about="&ob-rwa-cred;RWACIRB_SupervisorFormula">
+        <rdfs:label xml:lang="pt">RWACIRB formula supervisor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;RWACIRB"/>
+        <rdfs:comment xml:lang="en">RWACIRB supervisor formula</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RWACIRB_PD_LGD -->
+
+    <owl:Class rdf:about="&ob-rwa-cred;RWACIRB_PD_LGD">
+        <rdfs:label xml:lang="pt">RWACIRB pd lgd</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;RWACIRB"/>
+        <rdfs:comment xml:lang="en">RWACIRB pd lgd</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RWACIRB_Simplified -->
+
+    <owl:Class rdf:about="&ob-rwa-cred;RWACIRB_Simplified">
+        <rdfs:label xml:lang="pt">RWACIRB simplificada</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;RWACIRB"/>
+        <rdfs:comment xml:lang="en">RWACIRB simplified</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RWACIRB_VaR -->
+
+    <owl:Class rdf:about="&ob-rwa-cred;RWACIRB_VaR">
+        <rdfs:label xml:lang="pt">RWACIRB var</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;RWACIRB"/>
+        <rdfs:comment xml:lang="en">RWACIRB var</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RWACPAD -->
+
+    <owl:Class rdf:about="&ob-rwa-cred;RWACPAD">
+        <rdfs:label xml:lang="en">RWACPAD</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWA"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-cred;is_derived_from__rwacpad"/>
-                <owl:onClass rdf:resource="&ob-rwa-cred;rwacpad"/>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedBySharesInGuaranteeFundsOfClearingOrSettlementAgencies"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;SharesInGuaranteeFundsOfClearingOrSettlementAgencies"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByNonCancellableCreditLimit"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;NonCancellableCreditLimit"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByOtherAssets"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;OtherAssets"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByAdvancesGrantedByInstitution"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;AdvancesGrantedByInstitution"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByGrantedWarranties"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;GrantedWarranties"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedBySalesContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;SalesContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByAssetLoanContracts"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;AssetLoanContracts"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByOtherRights"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;OtherRights"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByPermanentAccounts"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;PermanentAccounts"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByAdjustmentForDerivativesResultingFromVariationOfCounterpartyCreditworthinessCVA"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;AdjustmentForDerivativesResultingFromVariationOfCounterpartyCreditworthinessCVA"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByValuesToBeDeductedFromRWACPAD"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;ValuesToBeDeductedFromRWACPAD"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByInterbankRelationships"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;InterbankRelationships"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedBySecuritiesAndDerivatives"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;SecuritiesAndDerivatives"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByPurshaseContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;PurshaseContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByLeasingContracts"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;LeasingContracts"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByTaxCredits"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;TaxCredits"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByCreditContracts"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;CreditContracts"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByCreditToBeReleasedIn360Days"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;CreditToBeReleasedIn360Days"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByLiquidityInterbankDeposits"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;LiquidityInterbankDeposits"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isComposedByAvailabilities"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;Availabilities"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -947,22 +930,39 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/titulos_e_valores_mobiliarios_e_instrumentos_financeiros_derivativos -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/RWACPADConsideringSFactor -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;titulos_e_valores_mobiliarios_e_instrumentos_financeiros_derivativos">
+    <owl:Class rdf:about="&ob-rwa-cred;RWACPADConsideringSFactor">
+        <rdfs:label xml:lang="en">RWACPAD considering S factor</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACPAD considerando fator S</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-cred;isDerivedFromRWACPAD"/>
+                <owl:onClass rdf:resource="&ob-rwa-cred;RWACPAD"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/SecuritiesAndDerivatives -->
+
+    <owl:Class rdf:about="&ob-rwa-cred;SecuritiesAndDerivatives">
         <rdfs:label xml:lang="en">securities and derivatives</rdfs:label>
         <rdfs:label xml:lang="pt">titulos e valores mobiliarios e instrumentos financeiros derivativos</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/CreditRisk/valores_a_serem_deduzidos_do_rwacpad -->
+    <!-- https://ontobacen.web.app/RWA/CreditRisk/ValuesToBeDeductedFromRWACPAD -->
 
-    <owl:Class rdf:about="&ob-rwa-cred;valores_a_serem_deduzidos_do_rwacpad">
-        <rdfs:label xml:lang="en">values to be deducted from rwacpad</rdfs:label>
-        <rdfs:label xml:lang="pt">valores a serem deduzidos do rwacpad</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;componente_do_rwa_para_risco_de_credito"/>
+    <owl:Class rdf:about="&ob-rwa-cred;ValuesToBeDeductedFromRWACPAD">
+        <rdfs:label xml:lang="en">values to be deducted from RWACPAD</rdfs:label>
+        <rdfs:label xml:lang="pt">valores a serem deduzidos do RWACPAD</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-cred;CreditRiskRWAComponent"/>
     </owl:Class>
 
 
@@ -1256,7 +1256,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="&ob-rwa-cred;operacoes_de_credito_varejo"/>
+                                                <swrl:classPredicate rdf:resource="&ob-rwa-cred;RetailCreditContracts"/>
                                                 <swrl:argument1 rdf:resource="urn:swrl#op_var"/>
                                             </rdf:Description>
                                         </rdf:first>
@@ -1266,7 +1266,7 @@
                                                 <rdf:first>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;demais_operacoes_de_credito"/>
+                                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;OtherCreditContracts"/>
                                                         <swrl:argument1 rdf:resource="urn:swrl#op_out"/>
                                                     </rdf:Description>
                                                 </rdf:first>
@@ -1385,7 +1385,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__demais_operacoes_de_credito"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByOtherCreditContracts"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#op_out"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#opcred"/>
                                     </rdf:Description>
@@ -1395,7 +1395,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_de_credito_varejo"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByRetailCreditContracts"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#op_var"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#opcred"/>
                             </rdf:Description>
@@ -1405,7 +1405,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;operacoes_de_credito"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;CreditContracts"/>
                         <swrl:argument1 rdf:resource="urn:swrl#opcred"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1426,7 +1426,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__outros_limites_de_credito"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByOtherCreditLimits"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#lim_ncanc"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#lim_out"/>
                                     </rdf:Description>
@@ -1544,7 +1544,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__limite_de_credito_varejo"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByRetailCreditLimit"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#lim_ncanc"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#lim_var"/>
                             </rdf:Description>
@@ -1554,7 +1554,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;limite_de_credito_nao_cancelavel"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;NonCancellableCreditLimit"/>
                         <swrl:argument1 rdf:resource="urn:swrl#lim_ncanc"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1596,7 +1596,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacirb_considerando_fator_S"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACIRBConsideringSFactor"/>
                         <swrl:argument1 rdf:resource="urn:swrl#cirb_s"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1609,7 +1609,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_derived_from__rwacpad_considerando_fator_S"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isDerivedFromRWACPADConsideringSFactor"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#cirb_s"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#cpad_s"/>
                                     </rdf:Description>
@@ -1623,7 +1623,7 @@
                                                 <rdf:first>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacpad_considerando_fator_S"/>
+                                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACPADConsideringSFactor"/>
                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad_s"/>
                                                     </rdf:Description>
                                                 </rdf:first>
@@ -1739,7 +1739,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacirb"/>
+                                                <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACIRB"/>
                                                 <swrl:argument1 rdf:resource="urn:swrl#cirb"/>
                                             </rdf:Description>
                                         </rdf:first>
@@ -1750,7 +1750,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_derived_from__rwacirb"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isDerivedFromRWACIRB"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#cirb"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#cirb_s"/>
                             </rdf:Description>
@@ -1814,7 +1814,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacpad"/>
+                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACPAD"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                     </rdf:Description>
                                 </rdf:first>
@@ -1930,7 +1930,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacirb_considerando_fator_S"/>
+                                <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACIRBConsideringSFactor"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#cirb"/>
                             </rdf:Description>
                         </rdf:first>
@@ -1939,7 +1939,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwa_para_risco_de_credito_reportado"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;ReportedCreditRiskRWA"/>
                         <swrl:argument1 rdf:resource="urn:swrl#crep"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1954,7 +1954,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwa_para_risco_de_credito_reportado"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;ReportedCreditRiskRWA"/>
                         <swrl:argument1 rdf:resource="urn:swrl#crep"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1967,7 +1967,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacpad"/>
+                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACPAD"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                     </rdf:Description>
                                 </rdf:first>
@@ -2083,7 +2083,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacirb_considerando_fator_S"/>
+                                <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACIRBConsideringSFactor"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#cirb"/>
                             </rdf:Description>
                         </rdf:first>
@@ -2143,7 +2143,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__adiantamentos_concedidos_pela_instituicao"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByAdvancesGrantedByInstitution"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#adiant"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                             </rdf:Description>
@@ -2157,7 +2157,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__aplicacoes_interfinanceiras_de_liquidez"/>
+                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByLiquidityInterbankDeposits"/>
                                                 <swrl:argument2 rdf:resource="urn:swrl#apl_interfin"/>
                                                 <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                             </rdf:Description>
@@ -2168,7 +2168,7 @@
                                                 <rdf:first>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__credito_a_liberar_em_360_dias"/>
+                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByCreditToBeReleasedIn360Days"/>
                                                         <swrl:argument2 rdf:resource="urn:swrl#clib_360d"/>
                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                     </rdf:Description>
@@ -2179,7 +2179,7 @@
                                                         <rdf:first>
                                                             <rdf:Description>
                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__creditos_tributarios"/>
+                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByTaxCredits"/>
                                                                 <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                 <swrl:argument2 rdf:resource="urn:swrl#cred_trib"/>
                                                             </rdf:Description>
@@ -2190,7 +2190,7 @@
                                                                 <rdf:first>
                                                                     <rdf:Description>
                                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__disponibilidades"/>
+                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByAvailabilities"/>
                                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                         <swrl:argument2 rdf:resource="urn:swrl#disp"/>
                                                                     </rdf:Description>
@@ -2201,7 +2201,7 @@
                                                                         <rdf:first>
                                                                             <rdf:Description>
                                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__garantias_prestadas"/>
+                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByGrantedWarranties"/>
                                                                                 <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                 <swrl:argument2 rdf:resource="urn:swrl#garant"/>
                                                                             </rdf:Description>
@@ -2212,7 +2212,7 @@
                                                                                 <rdf:first>
                                                                                     <rdf:Description>
                                                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__limite_de_credito_nao_cancelavel"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByNonCancellableCreditLimit"/>
                                                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                         <swrl:argument2 rdf:resource="urn:swrl#lim_ncanc"/>
                                                                                     </rdf:Description>
@@ -2235,7 +2235,7 @@
                                                                                                                         <rdf:first>
                                                                                                                             <rdf:Description>
                                                                                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_de_emprestimos_de_ativos"/>
+                                                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByAssetLoanContracts"/>
                                                                                                                                 <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                                                 <swrl:argument2 rdf:resource="urn:swrl#emp_ativos"/>
                                                                                                                             </rdf:Description>
@@ -2246,7 +2246,7 @@
                                                                                                                                 <rdf:first>
                                                                                                                                     <rdf:Description>
                                                                                                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__outros_direitos"/>
+                                                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByOtherRights"/>
                                                                                                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                                                         <swrl:argument2 rdf:resource="urn:swrl#out_dir"/>
                                                                                                                                     </rdf:Description>
@@ -2257,7 +2257,7 @@
                                                                                                                                         <rdf:first>
                                                                                                                                             <rdf:Description>
                                                                                                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__outros_valores_e_bens"/>
+                                                                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByOtherAssets"/>
                                                                                                                                                 <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                                                                 <swrl:argument2 rdf:resource="urn:swrl#out_val"/>
                                                                                                                                             </rdf:Description>
@@ -2271,7 +2271,7 @@
                                                                                                                                                         <rdf:first>
                                                                                                                                                             <rdf:Description>
                                                                                                                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__permanente"/>
+                                                                                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByPermanentAccounts"/>
                                                                                                                                                                 <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                                                                                 <swrl:argument2 rdf:resource="urn:swrl#perm"/>
                                                                                                                                                             </rdf:Description>
@@ -2285,7 +2285,7 @@
                                                                                                                                                                         <rdf:first>
                                                                                                                                                                             <rdf:Description>
                                                                                                                                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__titulos_e_valores_mobiliarios_e_instrumentos_financeiros_derivativos"/>
+                                                                                                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedBySecuritiesAndDerivatives"/>
                                                                                                                                                                                 <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                                                                                                 <swrl:argument2 rdf:resource="urn:swrl#tvm_deriv"/>
                                                                                                                                                                             </rdf:Description>
@@ -3394,7 +3394,7 @@
                                                                                                                                                                                 <rdf:first>
                                                                                                                                                                                     <rdf:Description>
                                                                                                                                                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__valores_a_serem_deduzidos_do_rwacpad"/>
+                                                                                                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByValuesToBeDeductedFromRWACPAD"/>
                                                                                                                                                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                                                                                                         <swrl:argument2 rdf:resource="urn:swrl#val_deduz"/>
                                                                                                                                                                                     </rdf:Description>
@@ -3406,7 +3406,7 @@
                                                                                                                                                                 <rdf:first>
                                                                                                                                                                     <rdf:Description>
                                                                                                                                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__relacoes_interfinanceiras"/>
+                                                                                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByInterbankRelationships"/>
                                                                                                                                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                                                                                         <swrl:argument2 rdf:resource="urn:swrl#rel_interfin"/>
                                                                                                                                                                     </rdf:Description>
@@ -3418,7 +3418,7 @@
                                                                                                                                                 <rdf:first>
                                                                                                                                                     <rdf:Description>
                                                                                                                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__participacoes_em_fundos_de_garantia_de_camaras_de_compensacao_ou_liquidacao"/>
+                                                                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedBySharesInGuaranteeFundsOfClearingOrSettlementAgencies"/>
                                                                                                                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                                                                         <swrl:argument2 rdf:resource="urn:swrl#fg_camliq"/>
                                                                                                                                                     </rdf:Description>
@@ -3434,7 +3434,7 @@
                                                                                                                 <rdf:first>
                                                                                                                     <rdf:Description>
                                                                                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_de_credito"/>
+                                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByCreditContracts"/>
                                                                                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                                         <swrl:argument2 rdf:resource="urn:swrl#op_cred"/>
                                                                                                                     </rdf:Description>
@@ -3444,7 +3444,7 @@
                                                                                                         <rdf:first>
                                                                                                             <rdf:Description>
                                                                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_de_arrendamento_mercantil"/>
+                                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByLeasingContracts"/>
                                                                                                                 <swrl:argument2 rdf:resource="urn:swrl#arrend"/>
                                                                                                                 <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                             </rdf:Description>
@@ -3454,7 +3454,7 @@
                                                                                                 <rdf:first>
                                                                                                     <rdf:Description>
                                                                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_a_liquidar_de_venda_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista"/>
+                                                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedBySalesContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket"/>
                                                                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                         <swrl:argument2 rdf:resource="urn:swrl#vvista_meotvm"/>
                                                                                                     </rdf:Description>
@@ -3464,7 +3464,7 @@
                                                                                         <rdf:first>
                                                                                             <rdf:Description>
                                                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__operacoes_a_liquidar_de_compra_de_moedas_estrangeiras_ouro_ou_de_titulos_e_valores_mobiliarios_no_mercado_a_vista"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByPurshaseContractsOfForeignCurrenciesOrGoldOrSecuritiesToBeSettledOnSpotMarket"/>
                                                                                                 <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                                                                 <swrl:argument2 rdf:resource="urn:swrl#cvista_meotvm"/>
                                                                                             </rdf:Description>
@@ -3486,7 +3486,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_composed_by__ajuste_para_derivativos_decorrente_da_variacao_da_qualidade_crediticia_da_contraparte_CVA"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isComposedByAdjustmentForDerivativesResultingFromVariationOfCounterpartyCreditworthinessCVA"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#ajust_deriv"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                     </rdf:Description>
@@ -3498,7 +3498,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacpad"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACPAD"/>
                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                     </rdf:Description>
                 </rdf:first>
@@ -3513,7 +3513,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacirb_considerando_fator_S"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACIRBConsideringSFactor"/>
                         <swrl:argument1 rdf:resource="urn:swrl#cirb_s"/>
                     </rdf:Description>
                 </rdf:first>
@@ -3526,7 +3526,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_derived_from__rwacpad_considerando_fator_S"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isDerivedFromRWACPADConsideringSFactor"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#cirb_s"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#cpad_s"/>
                                     </rdf:Description>
@@ -3537,7 +3537,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacirb"/>
+                                                <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACIRB"/>
                                                 <swrl:argument1 rdf:resource="urn:swrl#cirb"/>
                                             </rdf:Description>
                                         </rdf:first>
@@ -3547,7 +3547,7 @@
                                                 <rdf:first>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacpad_considerando_fator_S"/>
+                                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACPADConsideringSFactor"/>
                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad_s"/>
                                                     </rdf:Description>
                                                 </rdf:first>
@@ -3667,7 +3667,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_derived_from__rwacirb"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isDerivedFromRWACIRB"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#cirb"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#cirb_s"/>
                             </rdf:Description>
@@ -3739,7 +3739,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacpad_considerando_fator_S"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACPADConsideringSFactor"/>
                         <swrl:argument1 rdf:resource="urn:swrl#cpad_s"/>
                     </rdf:Description>
                 </rdf:first>
@@ -3752,7 +3752,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_derived_from__rwacpad"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isDerivedFromRWACPAD"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#cpad"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#cpad_s"/>
                                     </rdf:Description>
@@ -3848,7 +3848,7 @@
                                                 <rdf:first>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;rwacpad"/>
+                                                        <swrl:classPredicate rdf:resource="&ob-rwa-cred;RWACPAD"/>
                                                         <swrl:argument1 rdf:resource="urn:swrl#cpad"/>
                                                     </rdf:Description>
                                                 </rdf:first>
@@ -3868,7 +3868,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;is_derived_from__fator_S"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-rwa-cred;isDerivedFromSFactor"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#cpad_s"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#sfact"/>
                             </rdf:Description>
