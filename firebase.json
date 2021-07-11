@@ -19,7 +19,8 @@
       { "source": "/RWA/BankingRisk/", "destination": "/RWA/BankingRisk/BankingRisk.rdf", "type": 301 },
       { "source": "/RWA/CreditRisk/", "destination": "/RWA/CreditRisk/CreditRisk.rdf", "type": 301 },
       { "source": "/RWA/MarketRisk/", "destination": "/RWA/MarketRisk/MarketRisk.rdf", "type": 301 },
-      { "source": "/RWA/OperationalRisk/", "destination": "/RWA/OperationalRisk/OperationalRisk.rdf", "type": 301 }
+      { "source": "/RWA/OperationalRisk/", "destination": "/RWA/OperationalRisk/OperationalRisk.rdf", "type": 301 },
+      { "source": "/CapitalRequirements/", "destination": "/CapitalRequirements/CapitalRequirements.rdf", "type": 301 }
     ]
   }
 }
