@@ -10,7 +10,7 @@
     <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY ob-cap-niv2 "https://ontobacen.web.app/Capital/Tier2/" >
+    <!ENTITY ob-cap-t2 "https://ontobacen.web.app/Capital/Tier2/" >
     <!ENTITY ob-cnt-amt "https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/" >
 ]>
 
@@ -26,7 +26,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:ob-cap-niv2="https://ontobacen.web.app/Capital/Tier2/">
+     xmlns:ob-cap-t2="https://ontobacen.web.app/Capital/Tier2/">
     <owl:Ontology rdf:about="https://ontobacen.web.app/Capital/Tier2/">
         <owl:imports rdf:resource="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/"/>
     </owl:Ontology>
@@ -44,9 +44,9 @@
     
 
 
-    <!-- https://ontobacen.web.app/Capital/Tier2/capital_nivel_2 -->
+    <!-- https://ontobacen.web.app/Capital/Tier2/Tier2Capital -->
 
-    <owl:Class rdf:about="&ob-cap-niv2;capital_nivel_2">
+    <owl:Class rdf:about="&ob-cap-t2;Tier2Capital">
         <rdfs:label xml:lang="en">tier 2 capital</rdfs:label>
         <rdfs:label xml:lang="pt">capital nivel 2</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cnt-amt;ContextualizedCapitalDefinition"/>
