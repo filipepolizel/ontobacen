@@ -26,8 +26,8 @@
 <h4>Imports (1)</h4>
 <div class='codebox'>
 <ul>
-<li class="asserted">https://ontobacen.web.app/Capital/PermanentLimit/ 
-<a href='https://ontobacen.web.app/Capital/PermanentLimit/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
+<li class="asserted">https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/ 
+<a href='https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
 </ul>
 </div>
 </div><!-- imports (1) -->
