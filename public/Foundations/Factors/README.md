@@ -3,7 +3,7 @@
 <a href='https://ontobacen.web.app/Foundations/Factors/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></h3>
 <h3>Loaded from file: https://ontobacen.web.app/Foundations/Factors/Factors.rdf</h3>
 
-<img src="owlviz.png" />
+<img src="OWLViz.png" />
 
 <div id='Factors'>
 <h4>References</h4>
