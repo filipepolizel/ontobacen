@@ -9,19 +9,19 @@
 <div class='codebox'>
 <ul>
 <li>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/classes/index-FinancialInstitutions.html' >Classes</a> (29)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/FinancialInstitutions/OWLDoc/classes/index-FinancialInstitutions.html' >Classes</a> (29)
 </li>
 <li>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/objectproperties/index-FinancialInstitutions.html' >Object Properties</a> (2)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/FinancialInstitutions/OWLDoc/objectproperties/index-FinancialInstitutions.html' >Object Properties</a> (2)
 </li>
 <li>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/dataproperties/index-FinancialInstitutions.html' >Data Properties</a> (2)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/FinancialInstitutions/OWLDoc/dataproperties/index-FinancialInstitutions.html' >Data Properties</a> (2)
 </li>
 <li>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/annotationproperties/index-FinancialInstitutions.html' >Annotation Properties</a> (5)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/FinancialInstitutions/OWLDoc/annotationproperties/index-FinancialInstitutions.html' >Annotation Properties</a> (5)
 </li>
 <li>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/datatypes/index-FinancialInstitutions.html' >Datatypes</a> (2)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/FinancialInstitutions/OWLDoc/datatypes/index-FinancialInstitutions.html' >Datatypes</a> (2)
 </li>
 </ul>
 </div>
