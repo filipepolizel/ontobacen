@@ -1,0 +1,39 @@
+<div class='summary'><h2>Tier1Complementary</h2>
+<h3>https://ontobacen.web.app//Capital/Tier1Complementary/ 
+<a href='https://ontobacen.web.app//Capital/Tier1Complementary/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></h3>
+
+<img src="./OWLViz.png" />
+
+<div id='Tier1Complementary'>
+<h4>References</h4>
+<div class='codebox'>
+<ul>
+<li>
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Capital/Tier1Complementary/OWLDoc/classes/index-Tier1Complementary.html' >Classes</a> (4)
+</li>
+<li>
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Capital/Tier1Complementary/OWLDoc/annotationproperties/index-Tier1Complementary.html' >Annotation Properties</a> (2)
+</li>
+<li>
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Capital/Tier1Complementary/OWLDoc/datatypes/index-Tier1Complementary.html' >Datatypes</a> (2)
+</li>
+</ul>
+</div>
+</div><!-- tier1complementary -->
+
+
+<div id='imports_(1)'>
+<h4>Imports (1)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted">https://ontobacen.web.app//Foundations/ContextualizedMonetaryAmount/ 
+<a href='https://ontobacen.web.app//Foundations/ContextualizedMonetaryAmount/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='index.html?action=load&uri=https%3A%2F%2Fontobacen.web.app%2F%2FFoundations%2FContextualizedMonetaryAmount%2F&redirect=Tier1Complementary___1455092792.html' class='urlOption' ><img src="./OWLDoc/images/download.png" title="Attempt to load owl/rdf" /></a></li>
+</ul>
+</div>
+</div><!-- imports (1) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
