@@ -1,7 +1,6 @@
 <div class='summary'><h2>Factors</h2>
 <h3>https://ontobacen.web.app/Foundations/Factors/ 
 <a href='https://ontobacen.web.app/Foundations/Factors/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></h3>
-<h3>Loaded from file: https://ontobacen.web.app/Foundations/Factors/Factors.rdf</h3>
 
 <img src="OWLViz.png" />
 
