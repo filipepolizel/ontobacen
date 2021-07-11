@@ -14,7 +14,7 @@
     <!ENTITY ob-rwa-cred "https://ontobacen.web.app/RWA/CreditRisk/" >
     <!ENTITY ob-rwa-merc "https://ontobacen.web.app/RWA/MarketRisk/" >
     <!ENTITY ob-rwa-bank "https://ontobacen.web.app/RWA/BankingRisk/" >
-    <!ENTITY ob-cap-prin "https://ontobacen.web.app/Capital/Tier1Core/" >
+    <!ENTITY ob-cap-cor "https://ontobacen.web.app/Capital/Tier1Core/" >
     <!ENTITY fibo-fnd-rel-rel "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/" >
     <!ENTITY ob-fac "https://ontobacen.web.app/Foundations/Factors/" >
     <!ENTITY ob-rwa-oper "https://ontobacen.web.app/RWA/OperationalRisk/" >
@@ -39,7 +39,7 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:ob-cap-prin="https://ontobacen.web.app/Capital/Tier1Core/"
+     xmlns:ob-cap-cor="https://ontobacen.web.app/Capital/Tier1Core/"
      xmlns:dct="http://purl.org/dc/terms/"
      xmlns:ob-cap-ade="https://ontobacen.web.app/Foundations/CapitalAdequacy/"
      xmlns:ob-cap-niv2="https://ontobacen.web.app/Capital/Tier2/"
@@ -95,13 +95,13 @@
     
 
 
-    <!-- https://ontobacen.web.app/CapitalRequirements/capital_principal_para_comparacao_com_rwa_is_composed_by__capital_principal -->
+    <!-- https://ontobacen.web.app/CapitalRequirements/CoreCapital_para_comparacao_com_rwa_is_composed_by__CoreCapital -->
 
-    <owl:ObjectProperty rdf:about="&ob-cap-req;capital_principal_para_comparacao_com_rwa_is_composed_by__capital_principal">
+    <owl:ObjectProperty rdf:about="&ob-cap-req;CoreCapital_para_comparacao_com_rwa_is_composed_by__CoreCapital">
         <rdfs:label xml:lang="en">core capital for rwa comparison is composed by core capital</rdfs:label>
         <rdfs:label xml:lang="pt">capital principal para comparacao com rwa is composed by capital principal</rdfs:label>
-        <rdfs:range rdf:resource="&ob-cap-prin;capital_principal"/>
-        <rdfs:domain rdf:resource="&ob-cap-req;capital_principal_para_comparacao_com_rwa"/>
+        <rdfs:range rdf:resource="&ob-cap-cor;CoreCapital"/>
+        <rdfs:domain rdf:resource="&ob-cap-req;CoreCapital_para_comparacao_com_rwa"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
@@ -155,25 +155,25 @@
     
 
 
-    <!-- https://ontobacen.web.app/CapitalRequirements/is_composed_by__capital_principal -->
+    <!-- https://ontobacen.web.app/CapitalRequirements/is_composed_by__CoreCapital -->
 
-    <owl:ObjectProperty rdf:about="&ob-cap-req;is_composed_by__capital_principal">
+    <owl:ObjectProperty rdf:about="&ob-cap-req;is_composed_by__CoreCapital">
         <rdfs:label xml:lang="en">tier 1 capital is composed by core capital</rdfs:label>
         <rdfs:label xml:lang="pt">capital nivel 1 is composed by capital principal</rdfs:label>
-        <rdfs:range rdf:resource="&ob-cap-prin;capital_principal"/>
+        <rdfs:range rdf:resource="&ob-cap-cor;CoreCapital"/>
         <rdfs:domain rdf:resource="&ob-cap-req;capital_nivel_1"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/CapitalRequirements/is_composed_by__capital_principal_para_comparacao_com_rwa -->
+    <!-- https://ontobacen.web.app/CapitalRequirements/is_composed_by__CoreCapital_para_comparacao_com_rwa -->
 
-    <owl:ObjectProperty rdf:about="&ob-cap-req;is_composed_by__capital_principal_para_comparacao_com_rwa">
+    <owl:ObjectProperty rdf:about="&ob-cap-req;is_composed_by__CoreCapital_para_comparacao_com_rwa">
         <rdfs:label xml:lang="en">margin over required core capital is composed by core capital for rwa comparison</rdfs:label>
         <rdfs:label xml:lang="pt">margem sobre capital principal requerido is composed by capital principal para comparacao com rwa</rdfs:label>
-        <rdfs:range rdf:resource="&ob-cap-req;capital_principal_para_comparacao_com_rwa"/>
-        <rdfs:domain rdf:resource="&ob-cap-req;margem_sobre_capital_principal_requerido"/>
+        <rdfs:range rdf:resource="&ob-cap-req;CoreCapital_para_comparacao_com_rwa"/>
+        <rdfs:domain rdf:resource="&ob-cap-req;margem_sobre_CoreCapital_requerido"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
@@ -231,7 +231,7 @@
 
     <owl:ObjectProperty rdf:about="&ob-cap-req;is_derived_from__fator_CP">
         <rdfs:label xml:lang="pt">capital principal minimo requerido para rwa is derived from fator CP</rdfs:label>
-        <rdfs:domain rdf:resource="&ob-cap-req;capital_principal_minimo_requerido_para_rwa"/>
+        <rdfs:domain rdf:resource="&ob-cap-req;CoreCapital_minimo_requerido_para_rwa"/>
         <rdfs:range rdf:resource="&ob-fac;CoreCapitalRequirementFactor"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isDerivedFromProductOf"/>
     </owl:ObjectProperty>
@@ -297,13 +297,13 @@
     
 
 
-    <!-- https://ontobacen.web.app/CapitalRequirements/is_reduced_by__capital_principal_minimo_requerido_para_rwa -->
+    <!-- https://ontobacen.web.app/CapitalRequirements/is_reduced_by__CoreCapital_minimo_requerido_para_rwa -->
 
-    <owl:ObjectProperty rdf:about="&ob-cap-req;is_reduced_by__capital_principal_minimo_requerido_para_rwa">
+    <owl:ObjectProperty rdf:about="&ob-cap-req;is_reduced_by__CoreCapital_minimo_requerido_para_rwa">
         <rdfs:label xml:lang="en">margin over required core capital is reduced by minimum required core capital for rwa</rdfs:label>
         <rdfs:label xml:lang="pt">margem sobre capital principal requerido is reduced by capital principal minimo requerido para rwa</rdfs:label>
-        <rdfs:range rdf:resource="&ob-cap-req;capital_principal_minimo_requerido_para_rwa"/>
-        <rdfs:domain rdf:resource="&ob-cap-req;margem_sobre_capital_principal_requerido"/>
+        <rdfs:range rdf:resource="&ob-cap-req;CoreCapital_minimo_requerido_para_rwa"/>
+        <rdfs:domain rdf:resource="&ob-cap-req;margem_sobre_CoreCapital_requerido"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isReducedBy"/>
     </owl:ObjectProperty>
     
@@ -395,8 +395,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-cap-req;is_composed_by__capital_principal"/>
-                <owl:onClass rdf:resource="&ob-cap-prin;capital_principal"/>
+                <owl:onProperty rdf:resource="&ob-cap-req;is_composed_by__CoreCapital"/>
+                <owl:onClass rdf:resource="&ob-cap-cor;CoreCapital"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -438,9 +438,9 @@
     
 
 
-    <!-- https://ontobacen.web.app/CapitalRequirements/capital_principal_minimo_requerido_para_rwa -->
+    <!-- https://ontobacen.web.app/CapitalRequirements/CoreCapital_minimo_requerido_para_rwa -->
 
-    <owl:Class rdf:about="&ob-cap-req;capital_principal_minimo_requerido_para_rwa">
+    <owl:Class rdf:about="&ob-cap-req;CoreCapital_minimo_requerido_para_rwa">
         <rdfs:label xml:lang="en">minimum required core capital for rwa</rdfs:label>
         <rdfs:label xml:lang="pt">capital principal minimo requerido para rwa</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cap-req;patrimonio_minimo_requerido"/>
@@ -455,16 +455,16 @@
     
 
 
-    <!-- https://ontobacen.web.app/CapitalRequirements/capital_principal_para_comparacao_com_rwa -->
+    <!-- https://ontobacen.web.app/CapitalRequirements/CoreCapital_para_comparacao_com_rwa -->
 
-    <owl:Class rdf:about="&ob-cap-req;capital_principal_para_comparacao_com_rwa">
+    <owl:Class rdf:about="&ob-cap-req;CoreCapital_para_comparacao_com_rwa">
         <rdfs:label xml:lang="en">core capital for rwa comparison</rdfs:label>
         <rdfs:label xml:lang="pt">capital principal para comparacao com rwa</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cap-req;patrimonio_para_apuracao_de_limite"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-cap-req;capital_principal_para_comparacao_com_rwa_is_composed_by__capital_principal"/>
-                <owl:onClass rdf:resource="&ob-cap-prin;capital_principal"/>
+                <owl:onProperty rdf:resource="&ob-cap-req;CoreCapital_para_comparacao_com_rwa_is_composed_by__CoreCapital"/>
+                <owl:onClass rdf:resource="&ob-cap-cor;CoreCapital"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -496,23 +496,23 @@
     
 
 
-    <!-- https://ontobacen.web.app/CapitalRequirements/margem_sobre_capital_principal_requerido -->
+    <!-- https://ontobacen.web.app/CapitalRequirements/margem_sobre_CoreCapital_requerido -->
 
-    <owl:Class rdf:about="&ob-cap-req;margem_sobre_capital_principal_requerido">
+    <owl:Class rdf:about="&ob-cap-req;margem_sobre_CoreCapital_requerido">
         <rdfs:label xml:lang="en">margin over required core capital</rdfs:label>
         <rdfs:label xml:lang="pt">margem sobre capital principal requerido</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cap-req;margem_sobre_patrimonio_requerido"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-cap-req;is_composed_by__capital_principal_para_comparacao_com_rwa"/>
-                <owl:onClass rdf:resource="&ob-cap-req;capital_principal_para_comparacao_com_rwa"/>
+                <owl:onProperty rdf:resource="&ob-cap-req;is_composed_by__CoreCapital_para_comparacao_com_rwa"/>
+                <owl:onClass rdf:resource="&ob-cap-req;CoreCapital_para_comparacao_com_rwa"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-cap-req;is_reduced_by__capital_principal_minimo_requerido_para_rwa"/>
-                <owl:onClass rdf:resource="&ob-cap-req;capital_principal_minimo_requerido_para_rwa"/>
+                <owl:onProperty rdf:resource="&ob-cap-req;is_reduced_by__CoreCapital_minimo_requerido_para_rwa"/>
+                <owl:onClass rdf:resource="&ob-cap-req;CoreCapital_minimo_requerido_para_rwa"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -960,7 +960,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-req;capital_principal_minimo_requerido_para_rwa"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-req;CoreCapital_minimo_requerido_para_rwa"/>
                         <swrl:argument1 rdf:resource="urn:swrl#min_req"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1518,7 +1518,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-req;margem_sobre_capital_principal_requerido"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-req;margem_sobre_CoreCapital_requerido"/>
                         <swrl:argument1 rdf:resource="urn:swrl#marg"/>
                     </rdf:Description>
                 </rdf:first>
@@ -2934,7 +2934,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-req;margem_sobre_capital_principal_requerido"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-req;margem_sobre_CoreCapital_requerido"/>
                         <swrl:argument1 rdf:resource="urn:swrl#marg"/>
                     </rdf:Description>
                 </rdf:first>
@@ -3569,7 +3569,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_composed_by__capital_principal"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_composed_by__CoreCapital"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#nv1"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#princ"/>
                                     </rdf:Description>
@@ -3913,7 +3913,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-req;margem_sobre_capital_principal_requerido"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-req;margem_sobre_CoreCapital_requerido"/>
                         <swrl:argument1 rdf:resource="urn:swrl#marg"/>
                     </rdf:Description>
                 </rdf:first>
@@ -3923,7 +3923,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_composed_by__capital_principal_para_comparacao_com_rwa"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_composed_by__CoreCapital_para_comparacao_com_rwa"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#cap"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#marg"/>
                             </rdf:Description>
@@ -3934,7 +3934,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__capital_principal_minimo_requerido_para_rwa"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__CoreCapital_minimo_requerido_para_rwa"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#marg"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#min_req"/>
                                     </rdf:Description>
@@ -4202,7 +4202,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-cap-req;capital_principal_para_comparacao_com_rwa_is_composed_by__capital_principal"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-cap-req;CoreCapital_para_comparacao_com_rwa_is_composed_by__CoreCapital"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#princ"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#princ_rwa"/>
                             </rdf:Description>
@@ -4388,7 +4388,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-req;capital_principal_para_comparacao_com_rwa"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-req;CoreCapital_para_comparacao_com_rwa"/>
                         <swrl:argument1 rdf:resource="urn:swrl#princ_rwa"/>
                     </rdf:Description>
                 </rdf:first>

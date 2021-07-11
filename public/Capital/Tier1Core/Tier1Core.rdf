@@ -10,7 +10,7 @@
     <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY ob-cap-prin "https://ontobacen.web.app/Capital/Tier1Core/" >
+    <!ENTITY ob-cap-cor "https://ontobacen.web.app/Capital/Tier1Core/" >
     <!ENTITY ob-fac "https://ontobacen.web.app/Foundations/Factors/" >
     <!ENTITY ob-rel "https://ontobacen.web.app/Foundations/Relations/" >
     <!ENTITY ob-cnt-amt "https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/" >
@@ -29,7 +29,7 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:ob-cap-prin="https://ontobacen.web.app/Capital/Tier1Core/"
+     xmlns:ob-cap-cor="https://ontobacen.web.app/Capital/Tier1Core/"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     <owl:Ontology rdf:about="https://ontobacen.web.app/Capital/Tier1Core/">
         <owl:imports rdf:resource="https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/"/>
@@ -48,9 +48,9 @@
     
 
 
-    <!-- https://ontobacen.web.app/Capital/Tier1Core/capital_principal -->
+    <!-- https://ontobacen.web.app/Capital/Tier1Core/CoreCapital -->
 
-    <owl:Class rdf:about="&ob-cap-prin;capital_principal">
+    <owl:Class rdf:about="&ob-cap-cor;CoreCapital">
         <rdfs:label xml:lang="en">core capital</rdfs:label>
         <rdfs:label xml:lang="pt">capital principal</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cnt-amt;ContextualizedCapitalDefinition"/>
