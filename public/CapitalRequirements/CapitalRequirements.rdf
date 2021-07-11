@@ -273,12 +273,12 @@
     
 
 
-    <!-- https://ontobacen.web.app/CapitalRequirements/is_reduced_by__capital_destacado_para_operacoes_com_o_setor_publico -->
+    <!-- https://ontobacen.web.app/CapitalRequirements/is_reduced_by__CapitalCommittedToOperationsWithPublicSector -->
 
-    <owl:ObjectProperty rdf:about="&ob-cap-req;is_reduced_by__capital_destacado_para_operacoes_com_o_setor_publico">
+    <owl:ObjectProperty rdf:about="&ob-cap-req;is_reduced_by__CapitalCommittedToOperationsWithPublicSector">
         <rdfs:label xml:lang="en">capital for adequacy validation is reduced by capital seconded for operations with the government</rdfs:label>
         <rdfs:label xml:lang="pt">patrimonio para apuracao de limite is reduced by capital destacado para operacoes com o setor publico</rdfs:label>
-        <rdfs:range rdf:resource="&ob-cap-perm;capital_destacado_para_operacoes_com_o_setor_publico"/>
+        <rdfs:range rdf:resource="&ob-cap-perm;CapitalCommittedToOperationsWithPublicSector"/>
         <rdfs:domain rdf:resource="&ob-cap-req;patrimonio_para_apuracao_de_limite"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isReducedBy"/>
     </owl:ObjectProperty>
@@ -309,12 +309,12 @@
     
 
 
-    <!-- https://ontobacen.web.app/CapitalRequirements/is_reduced_by__excesso_dos_recursos_aplicados_no_ativo_permanente -->
+    <!-- https://ontobacen.web.app/CapitalRequirements/is_reduced_by__ExcessOfResourcesInvestedInFixedAssets -->
 
-    <owl:ObjectProperty rdf:about="&ob-cap-req;is_reduced_by__excesso_dos_recursos_aplicados_no_ativo_permanente">
+    <owl:ObjectProperty rdf:about="&ob-cap-req;is_reduced_by__ExcessOfResourcesInvestedInFixedAssets">
         <rdfs:label xml:lang="en">capital for adequacy validation is reduced by excess of resources invested in fixed assets</rdfs:label>
         <rdfs:label xml:lang="pt">patrimonio para apuracao de limite is reduced by excesso dos recursos aplicados no ativo permanente</rdfs:label>
-        <rdfs:range rdf:resource="&ob-cap-perm;excesso_dos_recursos_aplicados_no_ativo_permanente"/>
+        <rdfs:range rdf:resource="&ob-cap-perm;ExcessOfResourcesInvestedInFixedAssets"/>
         <rdfs:domain rdf:resource="&ob-cap-req;patrimonio_para_apuracao_de_limite"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isReducedBy"/>
     </owl:ObjectProperty>
@@ -579,15 +579,15 @@
         <rdfs:subClassOf rdf:resource="&ob-cnt-amt;ContextualizedCapitalDefinition"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-cap-req;is_reduced_by__capital_destacado_para_operacoes_com_o_setor_publico"/>
-                <owl:onClass rdf:resource="&ob-cap-perm;capital_destacado_para_operacoes_com_o_setor_publico"/>
+                <owl:onProperty rdf:resource="&ob-cap-req;is_reduced_by__CapitalCommittedToOperationsWithPublicSector"/>
+                <owl:onClass rdf:resource="&ob-cap-perm;CapitalCommittedToOperationsWithPublicSector"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-cap-req;is_reduced_by__excesso_dos_recursos_aplicados_no_ativo_permanente"/>
-                <owl:onClass rdf:resource="&ob-cap-perm;excesso_dos_recursos_aplicados_no_ativo_permanente"/>
+                <owl:onProperty rdf:resource="&ob-cap-req;is_reduced_by__ExcessOfResourcesInvestedInFixedAssets"/>
+                <owl:onClass rdf:resource="&ob-cap-perm;ExcessOfResourcesInvestedInFixedAssets"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3635,7 +3635,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__capital_destacado_para_operacoes_com_o_setor_publico"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__CapitalCommittedToOperationsWithPublicSector"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#pr_rwa"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#pub"/>
                                     </rdf:Description>
@@ -3796,7 +3796,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__excesso_dos_recursos_aplicados_no_ativo_permanente"/>
+                                                <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__ExcessOfResourcesInvestedInFixedAssets"/>
                                                 <swrl:argument2 rdf:resource="urn:swrl#perm"/>
                                                 <swrl:argument1 rdf:resource="urn:swrl#pr_rwa"/>
                                             </rdf:Description>
@@ -4216,7 +4216,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__excesso_dos_recursos_aplicados_no_ativo_permanente"/>
+                                                <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__ExcessOfResourcesInvestedInFixedAssets"/>
                                                 <swrl:argument2 rdf:resource="urn:swrl#perm"/>
                                                 <swrl:argument1 rdf:resource="urn:swrl#princ_rwa"/>
                                             </rdf:Description>
@@ -4376,7 +4376,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__capital_destacado_para_operacoes_com_o_setor_publico"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__CapitalCommittedToOperationsWithPublicSector"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#princ_rwa"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#pub"/>
                                     </rdf:Description>
@@ -5201,7 +5201,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__excesso_dos_recursos_aplicados_no_ativo_permanente"/>
+                                                <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__ExcessOfResourcesInvestedInFixedAssets"/>
                                                 <swrl:argument1 rdf:resource="urn:swrl#nv1_rwa"/>
                                                 <swrl:argument2 rdf:resource="urn:swrl#perm"/>
                                             </rdf:Description>
@@ -5211,7 +5211,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__capital_destacado_para_operacoes_com_o_setor_publico"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_reduced_by__CapitalCommittedToOperationsWithPublicSector"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#nv1_rwa"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#pub"/>
                                     </rdf:Description>
