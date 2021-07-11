@@ -9,13 +9,13 @@
 <div class='codebox'>
 <ul>
 <li>
-<a href='https://github.com/filipepolizel/ontobacen/blob/master/public/Capital/PermanentLimit/OWLDoc/classes/index-PermanentLimit.html' >Classes</a> (5)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Capital/PermanentLimit/OWLDoc/classes/index-PermanentLimit.html' >Classes</a> (5)
 </li>
 <li>
-<a href='https://github.com/filipepolizel/ontobacen/blob/master/public/Capital/PermanentLimit/OWLDoc/annotationproperties/index-PermanentLimit.html' >Annotation Properties</a> (2)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Capital/PermanentLimit/OWLDoc/annotationproperties/index-PermanentLimit.html' >Annotation Properties</a> (2)
 </li>
 <li>
-<a href='https://github.com/filipepolizel/ontobacen/blob/master/public/Capital/PermanentLimit/OWLDoc/datatypes/index-PermanentLimit.html' >Datatypes</a> (2)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Capital/PermanentLimit/OWLDoc/datatypes/index-PermanentLimit.html' >Datatypes</a> (2)
 </li>
 </ul>
 </div>
