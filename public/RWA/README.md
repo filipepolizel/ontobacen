@@ -1,4 +1,4 @@
-# Capital Module
+# RWA Module
 
 This module is responsible for the conceptualizations which are necessary for calculating risk-weighted assets
 (RWA) of a SFN’s financial institution, playing a central role on *OntoBacen*’s development and use cases, being in turn the
