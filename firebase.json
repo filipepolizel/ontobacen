@@ -7,10 +7,11 @@
       "**/node_modules/**"
     ],
     "redirects": [
-      { "source": "/Foundations/FinancialInstitutions/", "destination": "/Foundations/FinancialInstitutions/FinancialInstitutions.rdf", "type": 301 },
+      { "source": "/Foundations/CapitalCompliance/", "destination": "/Foundations/CapitalCompliance/CapitalCompliance.rdf", "type": 301 },
       { "source": "/Foundations/ContextualizedMonetaryAmount/", "destination": "/Foundations/ContextualizedMonetaryAmount/ContextualizedMonetaryAmount.rdf", "type": 301 },
-      { "source": "/Foundations/Relations/", "destination": "/Foundations/Relations/Relations.rdf", "type": 301 },
       { "source": "/Foundations/Factors/", "destination": "/Foundations/Factors/Factors.rdf", "type": 301 },
+      { "source": "/Foundations/FinancialInstitutions/", "destination": "/Foundations/FinancialInstitutions/FinancialInstitutions.rdf", "type": 301 },
+      { "source": "/Foundations/Relations/", "destination": "/Foundations/Relations/Relations.rdf", "type": 301 },
       { "source": "/Capital/Tier1Core/", "destination": "/Capital/Tier1Core/Tier1Core.rdf", "type": 301 },
       { "source": "/Capital/Tier1Complementary/", "destination": "/Capital/Tier1Complementary/Tier1Complementary.rdf", "type": 301 },
       { "source": "/Capital/Tier2/", "destination": "/Capital/Tier2/Tier2.rdf", "type": 301 },
