@@ -46,9 +46,9 @@
     
 
 
-    <!-- https://ontobacen.web.app//Capital/Tier1Complementary/capital_complementar -->
+    <!-- https://ontobacen.web.app//Capital/Tier1Complementary/ComplementaryCapital -->
 
-    <owl:Class rdf:about="&ob-cap-comp;capital_complementar">
+    <owl:Class rdf:about="&ob-cap-comp;ComplementaryCapital">
         <rdfs:label xml:lang="en">complementary capital</rdfs:label>
         <rdfs:label xml:lang="pt">capital complementar</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cnt-amt;ContextualizedCapitalDefinition"/>
