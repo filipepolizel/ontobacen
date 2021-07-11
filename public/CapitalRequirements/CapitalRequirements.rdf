@@ -194,10 +194,10 @@
     <!-- https://ontobacen.web.app/CapitalRequirements/is_composed_by__patrimonio_referencia_minimo_requerido_para_rwa -->
 
     <owl:ObjectProperty rdf:about="&ob-cap-req;is_composed_by__patrimonio_referencia_minimo_requerido_para_rwa">
-        <rdfs:label xml:lang="en">minimum required reference capital for rwa and for rban is composed by minimum required reference capital for rwa</rdfs:label>
-        <rdfs:label xml:lang="pt">patrimonio referencia minimo requerido para rwa e para rban is composed by patrimonio referencia minimo requerido para rwa</rdfs:label>
+        <rdfs:label xml:lang="en">minimum required reference capital for rwa and for RBAN is composed by minimum required reference capital for rwa</rdfs:label>
+        <rdfs:label xml:lang="pt">patrimonio referencia minimo requerido para rwa e para RBAN is composed by patrimonio referencia minimo requerido para rwa</rdfs:label>
         <rdfs:range rdf:resource="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa"/>
-        <rdfs:domain rdf:resource="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_rban"/>
+        <rdfs:domain rdf:resource="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_RBAN"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
@@ -215,14 +215,14 @@
     
 
 
-    <!-- https://ontobacen.web.app/CapitalRequirements/is_composed_by__rban -->
+    <!-- https://ontobacen.web.app/CapitalRequirements/is_composed_by__RBAN -->
 
-    <owl:ObjectProperty rdf:about="&ob-cap-req;is_composed_by__rban">
-        <rdfs:label xml:lang="en">minimum required reference capital for rwa and for rban is composed by banking book operations rwa (RBAN)</rdfs:label>
-        <rdfs:label xml:lang="pt">patrimonio referencia minimo requerido para rwa e para rban is composed by rwa para risco de operacoes da carteira banking (RBAN)</rdfs:label>
-        <rdfs:domain rdf:resource="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_rban"/>
+    <owl:ObjectProperty rdf:about="&ob-cap-req;is_composed_by__RBAN">
+        <rdfs:label xml:lang="en">minimum required reference capital for rwa and for RBAN is composed by banking book operations rwa (RBAN)</rdfs:label>
+        <rdfs:label xml:lang="pt">patrimonio referencia minimo requerido para rwa e para RBAN is composed by rwa para risco de operacoes da carteira banking (RBAN)</rdfs:label>
+        <rdfs:domain rdf:resource="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_RBAN"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
-        <rdfs:range rdf:resource="&ob-rwa-bank;rban"/>
+        <rdfs:range rdf:resource="&ob-rwa-bank;RBAN"/>
     </owl:ObjectProperty>
     
 
@@ -636,11 +636,11 @@
     
 
 
-    <!-- https://ontobacen.web.app/CapitalRequirements/patrimonio_referencia_minimo_requerido_para_rwa_e_para_rban -->
+    <!-- https://ontobacen.web.app/CapitalRequirements/patrimonio_referencia_minimo_requerido_para_rwa_e_para_RBAN -->
 
-    <owl:Class rdf:about="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_rban">
-        <rdfs:label xml:lang="en">minimum required reference capital for rwa and for rban</rdfs:label>
-        <rdfs:label xml:lang="pt">patrimonio referencia minimo requerido para rwa e para rban</rdfs:label>
+    <owl:Class rdf:about="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_RBAN">
+        <rdfs:label xml:lang="en">minimum required reference capital for rwa and for RBAN</rdfs:label>
+        <rdfs:label xml:lang="pt">patrimonio referencia minimo requerido para rwa e para RBAN</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cap-req;patrimonio_minimo_requerido"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -651,8 +651,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-cap-req;is_composed_by__rban"/>
-                <owl:onClass rdf:resource="&ob-rwa-bank;rban"/>
+                <owl:onProperty rdf:resource="&ob-cap-req;is_composed_by__RBAN"/>
+                <owl:onClass rdf:resource="&ob-rwa-bank;RBAN"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -722,7 +722,7 @@
     <rdf:Description rdf:about="urn:swrl#rwa">
         <rdf:type rdf:resource="&swrl;Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl#rban">
+    <rdf:Description rdf:about="urn:swrl#RBAN">
         <rdf:type rdf:resource="&swrl;Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl#cur">
@@ -737,7 +737,7 @@
     <rdf:Description rdf:about="urn:swrl#oper">
         <rdf:type rdf:resource="&swrl;Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl#amt_rban">
+    <rdf:Description rdf:about="urn:swrl#amt_RBAN">
         <rdf:type rdf:resource="&swrl;Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl#amt_cred">
@@ -776,13 +776,13 @@
     <rdf:Description rdf:about="urn:swrl#amt_nv1_rwa">
         <rdf:type rdf:resource="&swrl;Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl#pr_rban">
+    <rdf:Description rdf:about="urn:swrl#pr_RBAN">
         <rdf:type rdf:resource="&swrl;Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl#pr_comp">
         <rdf:type rdf:resource="&swrl;Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl#amt_pr_rban">
+    <rdf:Description rdf:about="urn:swrl#amt_pr_RBAN">
         <rdf:type rdf:resource="&swrl;Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl#amt_pr_comp">
@@ -1123,8 +1123,8 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="&ob-rwa-bank;rban"/>
-                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                <swrl:classPredicate rdf:resource="&ob-rwa-bank;RBAN"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                             </rdf:Description>
                                         </rdf:first>
                                         <rdf:rest>
@@ -1199,8 +1199,8 @@
                                                                                                                                             <rdf:Description>
                                                                                                                                                 <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
                                                                                                                                                 <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasAmount"/>
-                                                                                                                                                <swrl:argument2 rdf:resource="urn:swrl#amt_rban"/>
-                                                                                                                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                                                                                                                <swrl:argument2 rdf:resource="urn:swrl#amt_RBAN"/>
+                                                                                                                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                                                                                                             </rdf:Description>
                                                                                                                                         </rdf:first>
                                                                                                                                         <rdf:rest>
@@ -1254,7 +1254,7 @@
                                                                                                                                                                                                 <swrl:builtin rdf:resource="&swrlb;greaterThan"/>
                                                                                                                                                                                                 <swrl:arguments rdf:parseType="Collection">
                                                                                                                                                                                                     <rdf:Description rdf:about="urn:swrl#amt_oper"/>
-                                                                                                                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_rban"/>
+                                                                                                                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_RBAN"/>
                                                                                                                                                                                                 </swrl:arguments>
                                                                                                                                                                                             </rdf:Description>
                                                                                                                                                                                         </rdf:first>
@@ -1353,7 +1353,7 @@
                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                                 <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasCurrency"/>
                                                                 <swrl:argument2 rdf:resource="urn:swrl#cur"/>
-                                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                             </rdf:Description>
                                                         </rdf:first>
                                                     </rdf:Description>
@@ -1363,7 +1363,7 @@
                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-rel-rel;hasContext"/>
                                                         <swrl:argument2 rdf:resource="urn:swrl#con"/>
-                                                        <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                             </rdf:Description>
@@ -1733,7 +1733,7 @@
                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                                 <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasCurrency"/>
                                                                 <swrl:argument2 rdf:resource="urn:swrl#cur"/>
-                                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                             </rdf:Description>
                                                         </rdf:first>
                                                         <rdf:rest>
@@ -1831,7 +1831,7 @@
                                                                                                                                                                                                 <swrl:builtin rdf:resource="&swrlb;greaterThan"/>
                                                                                                                                                                                                 <swrl:arguments rdf:parseType="Collection">
                                                                                                                                                                                                     <rdf:Description rdf:about="urn:swrl#amt_cred"/>
-                                                                                                                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_rban"/>
+                                                                                                                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_RBAN"/>
                                                                                                                                                                                                 </swrl:arguments>
                                                                                                                                                                                             </rdf:Description>
                                                                                                                                                                                         </rdf:first>
@@ -1871,8 +1871,8 @@
                                                                                                                                             <rdf:Description>
                                                                                                                                                 <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
                                                                                                                                                 <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasAmount"/>
-                                                                                                                                                <swrl:argument2 rdf:resource="urn:swrl#amt_rban"/>
-                                                                                                                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                                                                                                                <swrl:argument2 rdf:resource="urn:swrl#amt_RBAN"/>
+                                                                                                                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                                                                                                             </rdf:Description>
                                                                                                                                         </rdf:first>
                                                                                                                                     </rdf:Description>
@@ -1958,7 +1958,7 @@
                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-rel-rel;hasContext"/>
                                                         <swrl:argument2 rdf:resource="urn:swrl#con"/>
-                                                        <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                             </rdf:Description>
@@ -1966,8 +1966,8 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="&ob-rwa-bank;rban"/>
-                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                <swrl:classPredicate rdf:resource="&ob-rwa-bank;RBAN"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                             </rdf:Description>
                                         </rdf:first>
                                     </rdf:Description>
@@ -2476,8 +2476,8 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="&ob-rwa-bank;rban"/>
-                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                <swrl:classPredicate rdf:resource="&ob-rwa-bank;RBAN"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                             </rdf:Description>
                                         </rdf:first>
                                         <rdf:rest>
@@ -2488,7 +2488,7 @@
                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-rel-rel;hasContext"/>
                                                         <swrl:argument2 rdf:resource="urn:swrl#con"/>
-                                                        <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                                 <rdf:rest>
@@ -2609,7 +2609,7 @@
                                                                                                                                                                                                 <swrl:builtin rdf:resource="&swrlb;greaterThan"/>
                                                                                                                                                                                                 <swrl:arguments rdf:parseType="Collection">
                                                                                                                                                                                                     <rdf:Description rdf:about="urn:swrl#amt_merc"/>
-                                                                                                                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_rban"/>
+                                                                                                                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_RBAN"/>
                                                                                                                                                                                                 </swrl:arguments>
                                                                                                                                                                                             </rdf:Description>
                                                                                                                                                                                         </rdf:first>
@@ -2645,8 +2645,8 @@
                                                                                                                                             <rdf:Description>
                                                                                                                                                 <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
                                                                                                                                                 <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasAmount"/>
-                                                                                                                                                <swrl:argument2 rdf:resource="urn:swrl#amt_rban"/>
-                                                                                                                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                                                                                                                <swrl:argument2 rdf:resource="urn:swrl#amt_RBAN"/>
+                                                                                                                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                                                                                                             </rdf:Description>
                                                                                                                                         </rdf:first>
                                                                                                                                     </rdf:Description>
@@ -2714,7 +2714,7 @@
                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                                 <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasCurrency"/>
                                                                 <swrl:argument2 rdf:resource="urn:swrl#cur"/>
-                                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                             </rdf:Description>
                                                         </rdf:first>
                                                     </rdf:Description>
@@ -2747,7 +2747,7 @@
                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-rel-rel;hasContext"/>
                         <swrl:argument2 rdf:resource="urn:swrl#con"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -2761,8 +2761,8 @@
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasAmount"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl#amt_pr_rban"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#amt_pr_RBAN"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                                     </rdf:Description>
                                 </rdf:first>
                             </rdf:Description>
@@ -2772,7 +2772,7 @@
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasCurrency"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#cur"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                             </rdf:Description>
                         </rdf:first>
                     </rdf:Description>
@@ -2790,7 +2790,7 @@
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_composed_by__patrimonio_referencia_minimo_requerido_para_rwa"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#pr_min"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -2799,9 +2799,9 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_composed_by__rban"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl#rban"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-cap-req;is_composed_by__RBAN"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#RBAN"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest>
@@ -2829,7 +2829,7 @@
                                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasCurrency"/>
                                                                         <swrl:argument2 rdf:resource="urn:swrl#cur"/>
-                                                                        <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                                     </rdf:Description>
                                                                 </rdf:first>
                                                                 <rdf:rest>
@@ -2842,8 +2842,8 @@
                                                                                     <rdf:Description>
                                                                                         <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
                                                                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasAmount"/>
-                                                                                        <swrl:argument2 rdf:resource="urn:swrl#amt_rban"/>
-                                                                                        <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                                                        <swrl:argument2 rdf:resource="urn:swrl#amt_RBAN"/>
+                                                                                        <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                                                     </rdf:Description>
                                                                                 </rdf:first>
                                                                                 <rdf:rest>
@@ -2855,9 +2855,9 @@
                                                                                                 <rdf:type rdf:resource="&swrl;BuiltinAtom"/>
                                                                                                 <swrl:builtin rdf:resource="&swrlb;add"/>
                                                                                                 <swrl:arguments rdf:parseType="Collection">
-                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_pr_rban"/>
+                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_pr_RBAN"/>
                                                                                                     <rdf:Description rdf:about="urn:swrl#amt_pr_min"/>
-                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_rban"/>
+                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_RBAN"/>
                                                                                                 </swrl:arguments>
                                                                                             </rdf:Description>
                                                                                         </rdf:first>
@@ -2884,7 +2884,7 @@
                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-rel-rel;hasContext"/>
                                                         <swrl:argument2 rdf:resource="urn:swrl#con"/>
-                                                        <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                             </rdf:Description>
@@ -2906,8 +2906,8 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_rban"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_RBAN"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                     </rdf:Description>
                 </rdf:first>
             </rdf:Description>
@@ -3070,7 +3070,7 @@
                                                                                         <swrl:builtin rdf:resource="&swrlb;lessThan"/>
                                                                                         <swrl:arguments rdf:parseType="Collection">
                                                                                             <rdf:Description rdf:about="urn:swrl#amt_pr_comp"/>
-                                                                                            <rdf:Description rdf:about="urn:swrl#amt_pr_rban"/>
+                                                                                            <rdf:Description rdf:about="urn:swrl#amt_pr_RBAN"/>
                                                                                         </swrl:arguments>
                                                                                     </rdf:Description>
                                                                                 </rdf:first>
@@ -3082,8 +3082,8 @@
                                                                     <rdf:Description>
                                                                         <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
                                                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasAmount"/>
-                                                                        <swrl:argument2 rdf:resource="urn:swrl#amt_pr_rban"/>
-                                                                        <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl#amt_pr_RBAN"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                                                                     </rdf:Description>
                                                                 </rdf:first>
                                                             </rdf:Description>
@@ -3103,7 +3103,7 @@
                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasCurrency"/>
                                                         <swrl:argument2 rdf:resource="urn:swrl#cur"/>
-                                                        <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                             </rdf:Description>
@@ -3124,7 +3124,7 @@
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="&fibo-fnd-rel-rel;hasContext"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#con"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                             </rdf:Description>
                         </rdf:first>
                     </rdf:Description>
@@ -3132,8 +3132,8 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_rban"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_RBAN"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                     </rdf:Description>
                 </rdf:first>
             </rdf:Description>
@@ -3184,8 +3184,8 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="&ob-rwa-bank;rban"/>
-                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                <swrl:classPredicate rdf:resource="&ob-rwa-bank;RBAN"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                             </rdf:Description>
                                         </rdf:first>
                                         <rdf:rest>
@@ -3199,7 +3199,7 @@
                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                                 <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasCurrency"/>
                                                                 <swrl:argument2 rdf:resource="urn:swrl#cur"/>
-                                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                             </rdf:Description>
                                                         </rdf:first>
                                                         <rdf:rest>
@@ -3313,7 +3313,7 @@
                                                                                                                                                                                 <rdf:type rdf:resource="&swrl;BuiltinAtom"/>
                                                                                                                                                                                 <swrl:builtin rdf:resource="&swrlb;greaterThan"/>
                                                                                                                                                                                 <swrl:arguments rdf:parseType="Collection">
-                                                                                                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_rban"/>
+                                                                                                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_RBAN"/>
                                                                                                                                                                                     <rdf:Description rdf:about="urn:swrl#amt_cred"/>
                                                                                                                                                                                 </swrl:arguments>
                                                                                                                                                                             </rdf:Description>
@@ -3326,7 +3326,7 @@
                                                                                                                                                                                         <rdf:type rdf:resource="&swrl;BuiltinAtom"/>
                                                                                                                                                                                         <swrl:builtin rdf:resource="&swrlb;greaterThan"/>
                                                                                                                                                                                         <swrl:arguments rdf:parseType="Collection">
-                                                                                                                                                                                            <rdf:Description rdf:about="urn:swrl#amt_rban"/>
+                                                                                                                                                                                            <rdf:Description rdf:about="urn:swrl#amt_RBAN"/>
                                                                                                                                                                                             <rdf:Description rdf:about="urn:swrl#amt_merc"/>
                                                                                                                                                                                         </swrl:arguments>
                                                                                                                                                                                     </rdf:Description>
@@ -3340,7 +3340,7 @@
                                                                                                                                                                                                 <rdf:type rdf:resource="&swrl;BuiltinAtom"/>
                                                                                                                                                                                                 <swrl:builtin rdf:resource="&swrlb;greaterThan"/>
                                                                                                                                                                                                 <swrl:arguments rdf:parseType="Collection">
-                                                                                                                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_rban"/>
+                                                                                                                                                                                                    <rdf:Description rdf:about="urn:swrl#amt_RBAN"/>
                                                                                                                                                                                                     <rdf:Description rdf:about="urn:swrl#amt_oper"/>
                                                                                                                                                                                                 </swrl:arguments>
                                                                                                                                                                                             </rdf:Description>
@@ -3369,8 +3369,8 @@
                                                                                                                                             <rdf:Description>
                                                                                                                                                 <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
                                                                                                                                                 <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasAmount"/>
-                                                                                                                                                <swrl:argument2 rdf:resource="urn:swrl#amt_rban"/>
-                                                                                                                                                <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                                                                                                                <swrl:argument2 rdf:resource="urn:swrl#amt_RBAN"/>
+                                                                                                                                                <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                                                                                                             </rdf:Description>
                                                                                                                                         </rdf:first>
                                                                                                                                     </rdf:Description>
@@ -3424,7 +3424,7 @@
                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-rel-rel;hasContext"/>
                                                         <swrl:argument2 rdf:resource="urn:swrl#con"/>
-                                                        <swrl:argument1 rdf:resource="urn:swrl#rban"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#RBAN"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                             </rdf:Description>
@@ -4443,8 +4443,8 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_rban"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                        <swrl:classPredicate rdf:resource="&ob-cap-req;patrimonio_referencia_minimo_requerido_para_rwa_e_para_RBAN"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -4455,7 +4455,7 @@
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="&fibo-fnd-rel-rel;hasContext"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#con"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -4509,7 +4509,7 @@
                                                                                         <swrl:builtin rdf:resource="&swrlb;greaterThanOrEqual"/>
                                                                                         <swrl:arguments rdf:parseType="Collection">
                                                                                             <rdf:Description rdf:about="urn:swrl#amt_pr_comp"/>
-                                                                                            <rdf:Description rdf:about="urn:swrl#amt_pr_rban"/>
+                                                                                            <rdf:Description rdf:about="urn:swrl#amt_pr_RBAN"/>
                                                                                         </swrl:arguments>
                                                                                     </rdf:Description>
                                                                                 </rdf:first>
@@ -4521,8 +4521,8 @@
                                                                     <rdf:Description>
                                                                         <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
                                                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasAmount"/>
-                                                                        <swrl:argument2 rdf:resource="urn:swrl#amt_pr_rban"/>
-                                                                        <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl#amt_pr_RBAN"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                                                                     </rdf:Description>
                                                                 </rdf:first>
                                                             </rdf:Description>
@@ -4534,7 +4534,7 @@
                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
                                                         <swrl:propertyPredicate rdf:resource="&fibo-fnd-acc-cur;hasCurrency"/>
                                                         <swrl:argument2 rdf:resource="urn:swrl#cur"/>
-                                                        <swrl:argument1 rdf:resource="urn:swrl#pr_rban"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#pr_RBAN"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                             </rdf:Description>

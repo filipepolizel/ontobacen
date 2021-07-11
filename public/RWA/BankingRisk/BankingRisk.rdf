@@ -46,9 +46,9 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/BankingRisk/rban -->
+    <!-- https://ontobacen.web.app/RWA/BankingRisk/RBAN -->
 
-    <owl:Class rdf:about="&ob-rwa-bank;rban">
+    <owl:Class rdf:about="&ob-rwa-bank;RBAN">
         <rdfs:label xml:lang="en">banking book operations rwa (RBAN)</rdfs:label>
         <rdfs:label xml:lang="pt">rwa para risco de operacoes da carteira banking (RBAN)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cnt-amt;ContextualizedWeightedAssets"/>
