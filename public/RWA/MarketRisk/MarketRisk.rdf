@@ -56,157 +56,157 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_composed_by__rwa_para_risco_de_mercado_apurado_segundo_modelo_interno -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isComposedByMarketRiskRWACalculatedByInternalModel -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_composed_by__rwa_para_risco_de_mercado_apurado_segundo_modelo_interno">
-        <rdfs:label xml:lang="en">rwamint is composed by market risk rwa calculated by internal model</rdfs:label>
-        <rdfs:label xml:lang="pt">rwamint is composed by rwa para risco de mercado apurado segundo modelo interno</rdfs:label>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwa_para_risco_de_mercado_apurado_segundo_modelo_interno"/>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwamint"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isComposedByMarketRiskRWACalculatedByInternalModel">
+        <rdfs:label xml:lang="en">RWAMINT is composed by market risk rwa calculated by internal model</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMINT is composed by rwa para risco de mercado apurado segundo modelo interno</rdfs:label>
+        <rdfs:range rdf:resource="&ob-rwa-merc;MarketRiskRWACalculatedByInternalModel"/>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMINT"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_composed_by__rwaacs -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isComposedByRWAACS -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_composed_by__rwaacs">
-        <rdfs:label xml:lang="en">rwampad is composed by rwaacs</rdfs:label>
-        <rdfs:label xml:lang="pt">rwampad is composed by rwaacs</rdfs:label>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwaacs"/>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwampad"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isComposedByRWAACS">
+        <rdfs:label xml:lang="en">RWAMPAD is composed by RWAACS</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMPAD is composed by RWAACS</rdfs:label>
+        <rdfs:range rdf:resource="&ob-rwa-merc;RWAACS"/>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMPAD"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_composed_by__rwacam -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isComposedByRWACAM -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_composed_by__rwacam">
-        <rdfs:label xml:lang="en">rwampad is composed by rwacam</rdfs:label>
-        <rdfs:label xml:lang="pt">rwampad is composed by rwacam</rdfs:label>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwacam"/>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwampad"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isComposedByRWACAM">
+        <rdfs:label xml:lang="en">RWAMPAD is composed by RWACAM</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMPAD is composed by RWACAM</rdfs:label>
+        <rdfs:range rdf:resource="&ob-rwa-merc;RWACAM"/>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMPAD"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_composed_by__rwacom -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isComposedByRWACOM -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_composed_by__rwacom">
-        <rdfs:label xml:lang="en">rwampad is composed by rwacom</rdfs:label>
-        <rdfs:label xml:lang="pt">rwampad is composed by rwacom</rdfs:label>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwacom"/>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwampad"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isComposedByRWACOM">
+        <rdfs:label xml:lang="en">RWAMPAD is composed by RWACOM</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMPAD is composed by RWACOM</rdfs:label>
+        <rdfs:range rdf:resource="&ob-rwa-merc;RWACOM"/>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMPAD"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_composed_by__rwajur1 -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isComposedByRWAJUR1 -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_composed_by__rwajur1">
-        <rdfs:label xml:lang="en">rwampad is composed by rwajur1</rdfs:label>
-        <rdfs:label xml:lang="pt">rwampad is composed by rwajur1</rdfs:label>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwajur1"/>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwampad"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isComposedByRWAJUR1">
+        <rdfs:label xml:lang="en">RWAMPAD is composed by RWAJUR1</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMPAD is composed by RWAJUR1</rdfs:label>
+        <rdfs:range rdf:resource="&ob-rwa-merc;RWAJUR1"/>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMPAD"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_composed_by__rwajur2 -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isComposedByRWAJUR2 -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_composed_by__rwajur2">
-        <rdfs:label xml:lang="en">rwampad is composed by rwajur2</rdfs:label>
-        <rdfs:label xml:lang="pt">rwampad is composed by rwajur2</rdfs:label>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwajur2"/>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwampad"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isComposedByRWAJUR2">
+        <rdfs:label xml:lang="en">RWAMPAD is composed by RWAJUR2</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMPAD is composed by RWAJUR2</rdfs:label>
+        <rdfs:range rdf:resource="&ob-rwa-merc;RWAJUR2"/>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMPAD"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_composed_by__rwajur3 -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isComposedByRWAJUR3 -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_composed_by__rwajur3">
-        <rdfs:label xml:lang="en">rwampad is composed by rwajur3</rdfs:label>
-        <rdfs:label xml:lang="pt">rwampad is composed by rwajur3</rdfs:label>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwajur3"/>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwampad"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isComposedByRWAJUR3">
+        <rdfs:label xml:lang="en">RWAMPAD is composed by RWAJUR3</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMPAD is composed by RWAJUR3</rdfs:label>
+        <rdfs:range rdf:resource="&ob-rwa-merc;RWAJUR3"/>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMPAD"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_composed_by__rwajur4 -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isComposedByRWAJUR4 -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_composed_by__rwajur4">
-        <rdfs:label xml:lang="en">rwampad is composed by rwajur4</rdfs:label>
-        <rdfs:label xml:lang="pt">rwampad is composed by rwajur4</rdfs:label>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwajur4"/>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwampad"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isComposedByRWAJUR4">
+        <rdfs:label xml:lang="en">RWAMPAD is composed by RWAJUR4</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMPAD is composed by RWAJUR4</rdfs:label>
+        <rdfs:range rdf:resource="&ob-rwa-merc;RWAJUR4"/>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMPAD"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_composed_by__rwamint_adicional_calculado_segundo_modelo_padronizado -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isComposedByRWAMINTIncrementCalculatedByStandardizedModel -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_composed_by__rwamint_adicional_calculado_segundo_modelo_padronizado">
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isComposedByRWAMINTIncrementCalculatedByStandardizedModel">
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
-        <rdfs:label xml:lang="en">rwamint is composed by rwamint increment calculated by standardized model</rdfs:label>
-        <rdfs:label xml:lang="pt">rwamint is composed by rwamint adicional calculado segundo modelo padronizado</rdfs:label>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwamint"/>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwamint_adicional_calculado_segundo_modelo_padronizado"/>
+        <rdfs:label xml:lang="en">RWAMINT is composed by RWAMINT increment calculated by standardized model</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMINT is composed by RWAMINT adicional calculado segundo modelo padronizado</rdfs:label>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMINT"/>
+        <rdfs:range rdf:resource="&ob-rwa-merc;RWAMINTIncrementCalculatedByStandardizedModel"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isComposedBy"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_derived_from__fator_Sm -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isDerivedFromSFactorm -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_derived_from__fator_Sm">
-        <rdfs:label xml:lang="en">rwampad considering Sm factor is derived from Sm factor</rdfs:label>
-        <rdfs:label xml:lang="pt">rwampad considerando fator Sm is derived from fator Sm</rdfs:label>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwampad_considerando_fator_Sm"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isDerivedFromSFactorm">
+        <rdfs:label xml:lang="en">RWAMPAD considering Sm factor is derived from Sm factor</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMPAD considerando fator Sm is derived from fator Sm</rdfs:label>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMPADConsideringSmFactor"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isDerivedFromProductOf"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_derived_from__rwamint -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isDerivedFromRWAMINT -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_derived_from__rwamint">
-        <rdfs:label xml:lang="en">rwamint considering Sm factor is derived from rwamint</rdfs:label>
-        <rdfs:label xml:lang="pt">rwamint considerando fator Sm is derived from rwamint</rdfs:label>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwamint"/>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwamint_considerando_fator_Sm"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isDerivedFromRWAMINT">
+        <rdfs:label xml:lang="en">RWAMINT considering Sm factor is derived from RWAMINT</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMINT considerando fator Sm is derived from RWAMINT</rdfs:label>
+        <rdfs:range rdf:resource="&ob-rwa-merc;RWAMINT"/>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMINTConsideringSmFactor"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isDerivedFromMaximumOf"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_derived_from__rwampad -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isDerivedFromRWAMPAD -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_derived_from__rwampad">
-        <rdfs:label xml:lang="en">rwampad considering Sm factor is derived from rwampad</rdfs:label>
-        <rdfs:label xml:lang="pt">rwampad considerando fator Sm is derived from rwampad</rdfs:label>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwampad"/>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwampad_considerando_fator_Sm"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isDerivedFromRWAMPAD">
+        <rdfs:label xml:lang="en">RWAMPAD considering Sm factor is derived from RWAMPAD</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMPAD considerando fator Sm is derived from RWAMPAD</rdfs:label>
+        <rdfs:range rdf:resource="&ob-rwa-merc;RWAMPAD"/>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMPADConsideringSmFactor"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isDerivedFromProductOf"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/is_derived_from__rwampad_considerando_fator_Sm -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/isDerivedFromRWAMPADConsideringSmFactor -->
 
-    <owl:ObjectProperty rdf:about="&ob-rwa-merc;is_derived_from__rwampad_considerando_fator_Sm">
-        <rdfs:label xml:lang="en">rwamint considering Sm factor is derived from rwampad considering Sm factor</rdfs:label>
-        <rdfs:label xml:lang="pt">rwamint considerando fator Sm is derived from rwampad considerando fator Sm</rdfs:label>
-        <rdfs:domain rdf:resource="&ob-rwa-merc;rwamint_considerando_fator_Sm"/>
-        <rdfs:range rdf:resource="&ob-rwa-merc;rwampad_considerando_fator_Sm"/>
+    <owl:ObjectProperty rdf:about="&ob-rwa-merc;isDerivedFromRWAMPADConsideringSmFactor">
+        <rdfs:label xml:lang="en">RWAMINT considering Sm factor is derived from RWAMPAD considering Sm factor</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMINT considerando fator Sm is derived from RWAMPAD considerando fator Sm</rdfs:label>
+        <rdfs:domain rdf:resource="&ob-rwa-merc;RWAMINTConsideringSmFactor"/>
+        <rdfs:range rdf:resource="&ob-rwa-merc;RWAMPADConsideringSmFactor"/>
         <rdfs:subPropertyOf rdf:resource="&ob-rel;isDerivedFromMaximumOf"/>
     </owl:ObjectProperty>
     
@@ -223,9 +223,9 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/componente_do_rwa_para_risco_de_mercado -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/MarketRiskRWAComponent -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado">
+    <owl:Class rdf:about="&ob-rwa-merc;MarketRiskRWAComponent">
         <rdfs:label xml:lang="en">market risk rwa component</rdfs:label>
         <rdfs:label xml:lang="pt">componente do rwa para risco de mercado</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cnt-amt;ContextualizedWeightedAssets"/>
@@ -233,9 +233,9 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwa_para_risco_de_mercado -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/MarketRiskRWA -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwa_para_risco_de_mercado">
+    <owl:Class rdf:about="&ob-rwa-merc;MarketRiskRWA">
         <rdfs:label xml:lang="en">market risk rwa</rdfs:label>
         <rdfs:label xml:lang="pt">rwa para risco de mercado</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob-cnt-amt;ContextualizedWeightedAssets"/>
@@ -243,113 +243,113 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwa_para_risco_de_mercado_apurado_segundo_modelo_interno -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/MarketRiskRWACalculatedByInternalModel -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwa_para_risco_de_mercado_apurado_segundo_modelo_interno">
+    <owl:Class rdf:about="&ob-rwa-merc;MarketRiskRWACalculatedByInternalModel">
         <rdfs:label xml:lang="en">market risk rwa calculated by internal model</rdfs:label>
         <rdfs:label xml:lang="pt">rwa para risco de mercado apurado segundo modelo interno</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwa_para_risco_de_mercado_reportado -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/ReportedMarketRiskRWA -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwa_para_risco_de_mercado_reportado">
+    <owl:Class rdf:about="&ob-rwa-merc;ReportedMarketRiskRWA">
         <rdfs:label xml:lang="en">reported market risk rwa</rdfs:label>
         <rdfs:label xml:lang="pt">rwa para risco de mercado reportado</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;rwa_para_risco_de_mercado"/>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWA"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwaacs -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWAACS -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwaacs">
-        <rdfs:label xml:lang="en">rwaacs</rdfs:label>
-        <rdfs:label xml:lang="pt">rwaacs</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado"/>
+    <owl:Class rdf:about="&ob-rwa-merc;RWAACS">
+        <rdfs:label xml:lang="en">RWAACS</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAACS</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwacam -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWACAM -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwacam">
-        <rdfs:label xml:lang="en">rwacam</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacam</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado"/>
+    <owl:Class rdf:about="&ob-rwa-merc;RWACAM">
+        <rdfs:label xml:lang="en">RWACAM</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACAM</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwacom -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWACOM -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwacom">
-        <rdfs:label xml:lang="en">rwacom</rdfs:label>
-        <rdfs:label xml:lang="pt">rwacom</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado"/>
+    <owl:Class rdf:about="&ob-rwa-merc;RWACOM">
+        <rdfs:label xml:lang="en">RWACOM</rdfs:label>
+        <rdfs:label xml:lang="pt">RWACOM</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwajur1 -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWAJUR1 -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwajur1">
-        <rdfs:label xml:lang="en">rwajur1</rdfs:label>
-        <rdfs:label xml:lang="pt">rwajur1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado"/>
+    <owl:Class rdf:about="&ob-rwa-merc;RWAJUR1">
+        <rdfs:label xml:lang="en">RWAJUR1</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAJUR1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwajur2 -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWAJUR2 -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwajur2">
-        <rdfs:label xml:lang="en">rwajur2</rdfs:label>
-        <rdfs:label xml:lang="pt">rwajur2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado"/>
+    <owl:Class rdf:about="&ob-rwa-merc;RWAJUR2">
+        <rdfs:label xml:lang="en">RWAJUR2</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAJUR2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwajur3 -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWAJUR3 -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwajur3">
-        <rdfs:label xml:lang="en">rwajur3</rdfs:label>
-        <rdfs:label xml:lang="pt">rwajur3</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado"/>
+    <owl:Class rdf:about="&ob-rwa-merc;RWAJUR3">
+        <rdfs:label xml:lang="en">RWAJUR3</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAJUR3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwajur4 -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWAJUR4 -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwajur4">
-        <rdfs:label xml:lang="en">rwajur4</rdfs:label>
-        <rdfs:label xml:lang="pt">rwajur4</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado"/>
+    <owl:Class rdf:about="&ob-rwa-merc;RWAJUR4">
+        <rdfs:label xml:lang="en">RWAJUR4</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAJUR4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwamint -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWAMINT -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwamint">
-        <rdfs:label xml:lang="en">rwamint</rdfs:label>
-        <rdfs:label xml:lang="pt">rwamint</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado"/>
+    <owl:Class rdf:about="&ob-rwa-merc;RWAMINT">
+        <rdfs:label xml:lang="en">RWAMINT</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMINT</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWAComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_composed_by__rwa_para_risco_de_mercado_apurado_segundo_modelo_interno"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwa_para_risco_de_mercado_apurado_segundo_modelo_interno"/>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isComposedByMarketRiskRWACalculatedByInternalModel"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;MarketRiskRWACalculatedByInternalModel"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_composed_by__rwamint_adicional_calculado_segundo_modelo_padronizado"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwamint_adicional_calculado_segundo_modelo_padronizado"/>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isComposedByRWAMINTIncrementCalculatedByStandardizedModel"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;RWAMINTIncrementCalculatedByStandardizedModel"/>
                 <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxQualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -357,92 +357,33 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwamint_adicional_calculado_segundo_modelo_padronizado -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWAMINTIncrementCalculatedByStandardizedModel -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwamint_adicional_calculado_segundo_modelo_padronizado">
-        <rdfs:label xml:lang="en">rwamint increment calculated by standardized model</rdfs:label>
-        <rdfs:label xml:lang="pt">rwamint adicional calculado segundo modelo padronizado</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado"/>
+    <owl:Class rdf:about="&ob-rwa-merc;RWAMINTIncrementCalculatedByStandardizedModel">
+        <rdfs:label xml:lang="en">RWAMINT increment calculated by standardized model</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMINT adicional calculado segundo modelo padronizado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWAComponent"/>
     </owl:Class>
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwamint_considerando_fator_Sm -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWAMINTConsideringSmFactor -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwamint_considerando_fator_Sm">
-        <rdfs:label xml:lang="en">rwamint considering Sm factor</rdfs:label>
-        <rdfs:label xml:lang="pt">rwamint considerando fator Sm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;rwa_para_risco_de_mercado"/>
+    <owl:Class rdf:about="&ob-rwa-merc;RWAMINTConsideringSmFactor">
+        <rdfs:label xml:lang="en">RWAMINT considering Sm factor</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMINT considerando fator Sm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWA"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_derived_from__rwampad_considerando_fator_Sm"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwampad_considerando_fator_Sm"/>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isDerivedFromRWAMPADConsideringSmFactor"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;RWAMPADConsideringSmFactor"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_derived_from__rwamint"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwamint"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwampad -->
-
-    <owl:Class rdf:about="&ob-rwa-merc;rwampad">
-        <rdfs:label xml:lang="en">rwampad</rdfs:label>
-        <rdfs:label xml:lang="pt">rwampad</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;rwa_para_risco_de_mercado"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_composed_by__rwajur2"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwajur2"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_composed_by__rwacam"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwacam"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_composed_by__rwajur4"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwajur4"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_composed_by__rwaacs"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwaacs"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_composed_by__rwajur1"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwajur1"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_composed_by__rwajur3"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwajur3"/>
-                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_composed_by__rwacom"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwacom"/>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isDerivedFromRWAMINT"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;RWAMINT"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -450,22 +391,81 @@
     
 
 
-    <!-- https://ontobacen.web.app/RWA/MarketRisk/rwampad_considerando_fator_Sm -->
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWAMPAD -->
 
-    <owl:Class rdf:about="&ob-rwa-merc;rwampad_considerando_fator_Sm">
-        <rdfs:label xml:lang="en">rwampad considering Sm factor</rdfs:label>
-        <rdfs:label xml:lang="pt">rwampad considerando fator Sm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;componente_do_rwa_para_risco_de_mercado"/>
+    <owl:Class rdf:about="&ob-rwa-merc;RWAMPAD">
+        <rdfs:label xml:lang="en">RWAMPAD</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMPAD</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWA"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_derived_from__rwampad"/>
-                <owl:onClass rdf:resource="&ob-rwa-merc;rwampad"/>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isComposedByRWAJUR2"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;RWAJUR2"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob-rwa-merc;is_derived_from__fator_Sm"/>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isComposedByRWACAM"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;RWACAM"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isComposedByRWAJUR4"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;RWAJUR4"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isComposedByRWAACS"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;RWAACS"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isComposedByRWAJUR1"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;RWAJUR1"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isComposedByRWAJUR3"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;RWAJUR3"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isComposedByRWACOM"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;RWACOM"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://ontobacen.web.app/RWA/MarketRisk/RWAMPADConsideringSmFactor -->
+
+    <owl:Class rdf:about="&ob-rwa-merc;RWAMPADConsideringSmFactor">
+        <rdfs:label xml:lang="en">RWAMPAD considering Sm factor</rdfs:label>
+        <rdfs:label xml:lang="pt">RWAMPAD considerando fator Sm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob-rwa-merc;MarketRiskRWAComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isDerivedFromRWAMPAD"/>
+                <owl:onClass rdf:resource="&ob-rwa-merc;RWAMPAD"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ob-rwa-merc;isDerivedFromSFactorm"/>
                 <owl:onClass rdf:resource="&ob-fac;MarketRiskModelTransitionFactor"/>
                 <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
@@ -631,7 +631,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_derived_from__fator_Sm"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isDerivedFromSFactorm"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#fact"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#mpad_sm"/>
                             </rdf:Description>
@@ -642,7 +642,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_derived_from__rwampad"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isDerivedFromRWAMPAD"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#mpad"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#mpad_sm"/>
                                     </rdf:Description>
@@ -736,7 +736,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;rwampad_considerando_fator_Sm"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;RWAMPADConsideringSmFactor"/>
                         <swrl:argument1 rdf:resource="urn:swrl#mpad_sm"/>
                     </rdf:Description>
                 </rdf:first>
@@ -754,7 +754,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_composed_by__rwaacs"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isComposedByRWAACS"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#acs"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#mpad"/>
                             </rdf:Description>
@@ -780,7 +780,7 @@
                                                                         <rdf:first>
                                                                             <rdf:Description>
                                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_composed_by__rwajur4"/>
+                                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isComposedByRWAJUR4"/>
                                                                                 <swrl:argument2 rdf:resource="urn:swrl#jur4"/>
                                                                                 <swrl:argument1 rdf:resource="urn:swrl#mpad"/>
                                                                             </rdf:Description>
@@ -1173,7 +1173,7 @@
                                                                 <rdf:first>
                                                                     <rdf:Description>
                                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_composed_by__rwajur3"/>
+                                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isComposedByRWAJUR3"/>
                                                                         <swrl:argument2 rdf:resource="urn:swrl#jur3"/>
                                                                         <swrl:argument1 rdf:resource="urn:swrl#mpad"/>
                                                                     </rdf:Description>
@@ -1183,7 +1183,7 @@
                                                         <rdf:first>
                                                             <rdf:Description>
                                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_composed_by__rwajur2"/>
+                                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isComposedByRWAJUR2"/>
                                                                 <swrl:argument2 rdf:resource="urn:swrl#jur2"/>
                                                                 <swrl:argument1 rdf:resource="urn:swrl#mpad"/>
                                                             </rdf:Description>
@@ -1193,7 +1193,7 @@
                                                 <rdf:first>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_composed_by__rwajur1"/>
+                                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isComposedByRWAJUR1"/>
                                                         <swrl:argument2 rdf:resource="urn:swrl#jur1"/>
                                                         <swrl:argument1 rdf:resource="urn:swrl#mpad"/>
                                                     </rdf:Description>
@@ -1203,7 +1203,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_composed_by__rwacom"/>
+                                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isComposedByRWACOM"/>
                                                 <swrl:argument2 rdf:resource="urn:swrl#com"/>
                                                 <swrl:argument1 rdf:resource="urn:swrl#mpad"/>
                                             </rdf:Description>
@@ -1213,7 +1213,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_composed_by__rwacam"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isComposedByRWACAM"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#cam"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#mpad"/>
                                     </rdf:Description>
@@ -1225,7 +1225,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;rwampad"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;RWAMPAD"/>
                         <swrl:argument1 rdf:resource="urn:swrl#mpad"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1294,7 +1294,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;rwamint_considerando_fator_Sm"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;RWAMINTConsideringSmFactor"/>
                         <swrl:argument1 rdf:resource="urn:swrl#mint_sm"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1307,7 +1307,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_derived_from__rwampad_considerando_fator_Sm"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isDerivedFromRWAMPADConsideringSmFactor"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#mint_sm"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#mpad_sm"/>
                                     </rdf:Description>
@@ -1424,7 +1424,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_derived_from__rwamint"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isDerivedFromRWAMINT"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#mint"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#mint_sm"/>
                             </rdf:Description>
@@ -1582,7 +1582,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_derived_from__rwampad_considerando_fator_Sm"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isDerivedFromRWAMPADConsideringSmFactor"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#mint_sm"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#mpad_sm"/>
                                     </rdf:Description>
@@ -1592,7 +1592,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_derived_from__rwamint"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isDerivedFromRWAMINT"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#mint"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#mint_sm"/>
                             </rdf:Description>
@@ -1602,7 +1602,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;rwamint_considerando_fator_Sm"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;RWAMINTConsideringSmFactor"/>
                         <swrl:argument1 rdf:resource="urn:swrl#mint_sm"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1644,7 +1644,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;rwamint"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;RWAMINT"/>
                         <swrl:argument1 rdf:resource="urn:swrl#mint"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1765,7 +1765,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_composed_by__rwamint_adicional_calculado_segundo_modelo_padronizado"/>
+                                        <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isComposedByRWAMINTIncrementCalculatedByStandardizedModel"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#mint"/>
                                         <swrl:argument2 rdf:resource="urn:swrl#mint_inc"/>
                                     </rdf:Description>
@@ -1775,7 +1775,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;is_composed_by__rwa_para_risco_de_mercado_apurado_segundo_modelo_interno"/>
+                                <swrl:propertyPredicate rdf:resource="&ob-rwa-merc;isComposedByMarketRiskRWACalculatedByInternalModel"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#mint"/>
                                 <swrl:argument2 rdf:resource="urn:swrl#mint_rwa"/>
                             </rdf:Description>
@@ -1806,7 +1806,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;rwa_para_risco_de_mercado_reportado"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;ReportedMarketRiskRWA"/>
                         <swrl:argument1 rdf:resource="urn:swrl#mrep"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1926,7 +1926,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;rwampad"/>
+                                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;RWAMPAD"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#mpad"/>
                                     </rdf:Description>
                                 </rdf:first>
@@ -1935,7 +1935,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="&ob-rwa-merc;rwamint_considerando_fator_Sm"/>
+                                <swrl:classPredicate rdf:resource="&ob-rwa-merc;RWAMINTConsideringSmFactor"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#mint"/>
                             </rdf:Description>
                         </rdf:first>
@@ -1952,7 +1952,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;rwa_para_risco_de_mercado_reportado"/>
+                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;ReportedMarketRiskRWA"/>
                         <swrl:argument1 rdf:resource="urn:swrl#mrep"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1962,7 +1962,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="&ob-rwa-merc;rwamint_considerando_fator_Sm"/>
+                                <swrl:classPredicate rdf:resource="&ob-rwa-merc;RWAMINTConsideringSmFactor"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#mint"/>
                             </rdf:Description>
                         </rdf:first>
@@ -2079,7 +2079,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="&swrl;ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;rwampad"/>
+                                        <swrl:classPredicate rdf:resource="&ob-rwa-merc;RWAMPAD"/>
                                         <swrl:argument1 rdf:resource="urn:swrl#mpad"/>
                                     </rdf:Description>
                                 </rdf:first>
