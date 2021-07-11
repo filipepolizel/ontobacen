@@ -1,18 +1,18 @@
 <div id='tabs'>
 <a href='index.html' class='' >Ontologies</a>
-<a href='./OWLDoc/classes/index.html' class='' >Classes</a>
-<a href='./OWLDoc/objectproperties/index.html' class='' >Object Properties</a>
-<a href='./OWLDoc/dataproperties/index.html' class='' >Data Properties</a>
-<a href='./OWLDoc/annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/classes/index.html' class='' >Classes</a>
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/objectproperties/index.html' class='' >Object Properties</a>
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/dataproperties/index.html' class='' >Data Properties</a>
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/annotationproperties/index.html' class='' >Annotation Properties</a>
 Individuals
-<a href='./OWLDoc/datatypes/index.html' class='' >Datatypes</a>
-<a href='./OWLDoc/cloud/' class='' >Clouds</a>
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/datatypes/index.html' class='' >Datatypes</a>
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/cloud/' class='' >Clouds</a>
 </div> <!-- tabs -->
 
 
 <div class='summary'><h2>Factors</h2>
 <h3>https://ontobacen.web.app/Foundations/Factors/ 
-<a href='https://ontobacen.web.app/Foundations/Factors/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></h3>
+<a href='https://ontobacen.web.app/Foundations/Factors/' class='urlOption' target='_blank' ><img src="https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></h3>
 <h3>Loaded from file:/home/filipe/Data/Pessoal/USP/Applied%20Ontology/OntoBacen/public/Foundations/Factors/Factors.rdf</h3>
 
 <div id='Factors'>
@@ -20,19 +20,19 @@ Individuals
 <div class='codebox'>
 <ul>
 <li>
-<a href='./OWLDoc/classes/index-Factors.html' >Classes</a> (25)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/classes/index-Factors.html' >Classes</a> (25)
 </li>
 <li>
-<a href='./OWLDoc/objectproperties/index-Factors.html' >Object Properties</a> (5)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/objectproperties/index-Factors.html' >Object Properties</a> (5)
 </li>
 <li>
-<a href='./OWLDoc/dataproperties/index-Factors.html' >Data Properties</a> (4)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/dataproperties/index-Factors.html' >Data Properties</a> (4)
 </li>
 <li>
-<a href='./OWLDoc/annotationproperties/index-Factors.html' >Annotation Properties</a> (3)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/annotationproperties/index-Factors.html' >Annotation Properties</a> (3)
 </li>
 <li>
-<a href='./OWLDoc/datatypes/index-Factors.html' >Datatypes</a> (4)
+<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/datatypes/index-Factors.html' >Datatypes</a> (4)
 </li>
 </ul>
 </div>
@@ -44,17 +44,17 @@ Individuals
 <div class='codebox'>
 <ul>
 <li class="asserted">https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/ 
-<a href='https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
+<a href='https://ontobacen.web.app/Foundations/ContextualizedMonetaryAmount/' class='urlOption' target='_blank' ><img src="https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
 <li class="asserted">https://ontobacen.web.app/Foundations/Relations/ 
-<a href='https://ontobacen.web.app/Foundations/Relations/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
+<a href='https://ontobacen.web.app/Foundations/Relations/' class='urlOption' target='_blank' ><img src="https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
 <li class="asserted">https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/ 
-<a href='https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
+<a href='https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/' class='urlOption' target='_blank' ><img src="https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
 <li class="asserted">https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ 
-<a href='https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
+<a href='https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/' class='urlOption' target='_blank' ><img src="https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
 <li class="asserted">https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ 
-<a href='https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
+<a href='https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/' class='urlOption' target='_blank' ><img src="https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
 <li class="asserted">https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/ 
-<a href='https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
+<a href='https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/' class='urlOption' target='_blank' ><img src="https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></li>
 </ul>
 </div>
 </div><!-- imports (6) -->
