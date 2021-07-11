@@ -1,15 +1,3 @@
-<div id='tabs'>
-<a href='index.html' class='' >Ontologies</a>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/classes/index.html' class='' >Classes</a>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/objectproperties/index.html' class='' >Object Properties</a>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/dataproperties/index.html' class='' >Data Properties</a>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/annotationproperties/index.html' class='' >Annotation Properties</a>
-Individuals
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/datatypes/index.html' class='' >Datatypes</a>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/Factors/OWLDoc/cloud/' class='' >Clouds</a>
-</div> <!-- tabs -->
-
-
 <div class='summary'><h2>Factors</h2>
 <h3>https://ontobacen.web.app/Foundations/Factors/ 
 <a href='https://ontobacen.web.app/Foundations/Factors/' class='urlOption' target='_blank' ><img src="./OWLDoc/images/external.png" title="Attempt to open link in another window" /></a></h3>
