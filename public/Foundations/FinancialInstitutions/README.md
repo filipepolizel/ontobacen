@@ -12,12 +12,6 @@
 <a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/FinancialInstitutions/OWLDoc/classes/index-FinancialInstitutions.html' >Classes</a> (29)
 </li>
 <li>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/FinancialInstitutions/OWLDoc/objectproperties/index-FinancialInstitutions.html' >Object Properties</a> (2)
-</li>
-<li>
-<a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/FinancialInstitutions/OWLDoc/dataproperties/index-FinancialInstitutions.html' >Data Properties</a> (2)
-</li>
-<li>
 <a href='https://htmlpreview.github.io/?https://github.com/filipepolizel/ontobacen/blob/master/public/Foundations/FinancialInstitutions/OWLDoc/annotationproperties/index-FinancialInstitutions.html' >Annotation Properties</a> (5)
 </li>
 <li>
